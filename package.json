@@ -1,0 +1,10 @@
+{
+  "name": "jspeedservice",
+  "private": true,
+  "version": "1.0.0",
+  "description": "J SPEED SERVICE website — static build that keeps every old page address",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
