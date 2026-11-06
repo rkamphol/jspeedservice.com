@@ -11,6 +11,16 @@ import { icon, facebookIcon } from './icons.mjs';
 const root = dirname(fileURLToPath(import.meta.url));
 const out = join(root, 'dist');
 const year = new Date().getFullYear();
+// Pages link from the site root (/assets/..., /บริการ/). When the site is served from a
+// sub-folder (the GitHub Pages preview at <user>.github.io/<repo>/, before the custom
+// domain is connected), BASE_PATH="/<repo>" is put in front of every such link.
+const base = (process.env.BASE_PATH || '').replace(/\/+$/, '');
+const withBase = (html) =>
+  base
+    ? html
+        .replace(/\b(href|src)="\/(?!\/)/g, `$1="${base}/`)
+        .replace(/\bsrcset="([^"]*)"/g, (_, set) => `srcset="${set.replace(/(^|,\s*)\/(?!\/)/g, `$1${base}/`)}"`)
+    : html;
 
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -698,7 +708,7 @@ for (const p of pages) {
   seen.add(dir);
   const file = join(out, dir, 'index.html');
   mkdirSync(dirname(file), { recursive: true });
-  writeFileSync(file, layout(p));
+  writeFileSync(file, withBase(layout(p)));
 }
 
 const missing = legacyLinks.filter((u) => !seen.has(fsPath(u)));
@@ -707,13 +717,13 @@ if (missing.length) throw new Error(`Old addresses without a page:\n${missing.ma
 // 404, assets, sitemap, robots, custom domain
 writeFileSync(
   join(out, '404.html'),
-  layout({
+  withBase(layout({
     path: '/404.html',
     title: 'ไม่พบหน้านี้',
     active: '',
     body: `${pageHead('ไม่พบหน้านี้', [['404']], 'หน้าที่คุณค้นหาอาจถูกย้าย ลองเลือกบริการด้านล่าง หรือโทรหาเรา')}
 <section class="section"><div class="wrap"><div class="svc-grid svc-grid--light">${services.map(serviceCard).join('')}</div></div></section>${ctaBand()}`,
-  }).replace('<head>', '<head>\n<meta name="robots" content="noindex">'),
+  }).replace('<head>', '<head>\n<meta name="robots" content="noindex">')),
 );
 mkdirSync(join(out, 'assets'), { recursive: true });
 for (const f of ['styles.css', 'main.js', 'logo.png', 'favicon-32.png', 'apple-touch-icon.png']) copyFileSync(join(root, 'public', f), join(out, 'assets', f));
@@ -736,4 +746,4 @@ writeFileSync(join(out, 'CNAME'), 'www.jspeedservice.com\n');
 writeFileSync(join(out, '.nojekyll'), '');
 if (!existsSync(join(out, 'index.html'))) throw new Error('index.html missing');
 
-console.log(`Built ${pages.length} pages into dist/ — all ${legacyLinks.length} old addresses present.`);
+console.log(`Built ${pages.length} pages into dist/${base ? ` for ${base}/` : ''} — all ${legacyLinks.length} old addresses present.`);

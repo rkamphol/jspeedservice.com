@@ -11,6 +11,14 @@ npm run build
 
 The finished site is written to `dist/` (upload or publish that folder).
 
+## Publishing
+
+Every push to `main` builds the site and publishes it with GitHub Pages
+(`.github/workflows/pages.yml`). Until the custom domain is connected, the site is at
+https://rkamphol.github.io/jspeedservice.com/ and the build puts `/jspeedservice.com` in
+front of its links (`BASE_PATH`); with the domain set in the repository's Pages settings
+the links stay at the site root.
+
 - `content.mjs` – text, services, repair stories and page addresses
 - `build.mjs` – page templates; fails if any old address is missing
 - `public/` – styles, script, logo and icons
