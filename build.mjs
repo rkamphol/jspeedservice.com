@@ -40,7 +40,6 @@ const catOf = (p) =>
 
 const home = onPage(paths.home).sort(byPos);
 const homeSvc = home.filter((p) => p.y < 1200).sort((a, b) => a.x - b.x);
-const homePosts = home.filter((p) => p.w === 300 && p.h === 300);
 const banners = home.filter((p) => /banner/.test(p.file));
 const homeGallery = home.filter((p) => p.y > 3500 && !/banner/.test(p.file));
 const aboutPics = onPage(paths.about).sort(byPos);
@@ -53,7 +52,8 @@ const picsFor = (s) => {
   return own.length ? own : pool.filter((p) => catOf(p) === s.key);
 };
 const svcPic = Object.fromEntries(services.map((s, i) => [s.key, homeSvc[i]]));
-const postPic = new Map(posts.map((p, i) => [p, homePosts[i]]));
+// A post's own photos (imported with it); the first one is its card and header picture.
+const postPics = (p) => onPage(p.path).filter((x) => x.post).sort(byPos);
 
 // Photos use the full-size originals (`full`, plus a 640 px `half` for small screens)
 // imported by scripts/import-originals.mjs; `sizes` says how wide the photo shows.
@@ -235,11 +235,11 @@ const postMeta = (p) => `
 
 const postCard = (p, i) => `
 <article class="post">
-  <a class="post__img" href="${p.path}" tabindex="-1" aria-hidden="true">${tile(p.icon, i, p.title, postPic.get(p))}</a>
+  <a class="post__img" href="${p.path}" tabindex="-1" aria-hidden="true">${tile(p.icon, i, p.title, postPics(p)[0])}</a>
   <div class="post__body">
     <h3 class="post__title"><a href="${p.path}">${p.title}</a></h3>
     ${postMeta(p)}
-    <p>${p.lead}…</p>
+    <p>${esc(p.lead)}</p>
     <a class="btn btn--small" href="${p.path}">DETAIL ${icon('arrow')}</a>
   </div>
 </article>`;
@@ -597,24 +597,29 @@ ${mapSection({ info: false })}`,
 
 // Repair stories
 posts.forEach((p, i) => {
-  const others = posts.filter((o) => o !== p).slice(0, 2);
+  // Two neighbouring stories from the same category (the next older ones, wrapping around).
+  const same = posts.filter((o) => o.cats[0] === p.cats[0]);
+  const at = same.indexOf(p);
+  const others = [1, 2].map((d) => same[(at + d) % same.length]).filter((o) => o !== p);
+  const [cover, ...more] = postPics(p);
   add({
     path: p.path,
     title: p.title,
     active: '',
     type: 'article',
-    description: `${p.lead}… J SPEED SERVICE อู่ซ่อมรถ MINI BMW`,
+    description: `${p.lead} – J SPEED SERVICE อู่ซ่อมรถ MINI BMW`,
     body: `
 ${pageHead(p.title, [[categories[p.cats[0]].name, categories[p.cats[0]].path], [p.title]])}
 <section class="section">
   <div class="wrap with-sidebar">
     <article class="content">
       ${postMeta(p)}
-      <div class="article__img">${tile(p.icon, i, p.title, postPic.get(p), '(max-width: 1100px) 100vw, 800px')}</div>
+      <div class="article__img">${tile(p.icon, i, p.title, cover, '(max-width: 1100px) 100vw, 800px')}</div>
       <div class="prose">
-        <p>${p.lead}…</p>
+        ${p.body.map((t) => `<p>${esc(t)}</p>`).join('\n        ')}
         <p>หากรถของคุณมีอาการคล้ายกัน ทีมช่าง J SPEED SERVICE พร้อมตรวจเช็คด้วยเครื่องคอมพิวเตอร์ แจ้งสาเหตุและราคาก่อนซ่อม และรับประกันงานซ่อมทุกงาน</p>
       </div>
+      ${more.length ? `<div class="gallery gallery--3 article__gallery">${more.map((x, k) => tile(p.icon, k, `${p.title} – ภาพที่ ${k + 2}`, x, '(max-width: 600px) 50vw, 260px')).join('')}</div>` : ''}
       ${callButton('btn btn--call')}
       <h2 class="section-title section-title--sm">งานซ่อมอื่นๆ</h2>
       <div class="post-grid">${others.map(postCard).join('')}</div>
@@ -625,22 +630,32 @@ ${pageHead(p.title, [[categories[p.cats[0]].name, categories[p.cats[0]].path], [
   });
 });
 
-// Category & author archives
-const archive = (path, title, list, crumbs) =>
-  add({
-    path,
-    title,
-    active: '',
-    description: `${title} – รวมงานซ่อมรถ MINI BMW จาก J SPEED SERVICE`,
-    body: `
+// Category & author archives, 9 stories per page: <path>, <path>page/2/, ... like the old site.
+const PER_PAGE = 9;
+const archive = (path, title, list, crumbs) => {
+  const pageCount = Math.max(1, Math.ceil(list.length / PER_PAGE));
+  const url = (n) => (n === 1 ? path : `${path}page/${n}/`);
+  for (let n = 1; n <= pageCount; n++) {
+    const pager =
+      pageCount > 1
+        ? `<nav class="pager" aria-label="หน้า">${Array.from({ length: pageCount }, (_, k) => (k + 1 === n ? `<span aria-current="page">${k + 1}</span>` : `<a href="${url(k + 1)}">${k + 1}</a>`)).join('')}</nav>`
+        : '';
+    add({
+      path: url(n),
+      title: n === 1 ? title : `${title} – หน้า ${n}`,
+      active: '',
+      description: `${title} – รวมงานซ่อมรถ MINI BMW จาก J SPEED SERVICE`,
+      body: `
 ${pageHead(title, crumbs)}
 <section class="section">
   <div class="wrap with-sidebar">
-    <div class="content"><div class="post-grid">${list.map(postCard).join('')}</div></div>
+    <div class="content"><div class="post-grid">${list.slice((n - 1) * PER_PAGE, n * PER_PAGE).map(postCard).join('')}</div>${pager}</div>
     ${sidebar()}
   </div>
 </section>`,
-  });
+    });
+  }
+};
 for (const [key, c] of Object.entries(categories)) {
   archive(c.path, c.name, posts.filter((p) => p.cats.includes(key)), [[c.name]]);
 }
@@ -733,13 +748,24 @@ cpSync(join(root, 'static'), out, { recursive: true });
 copyFileSync(join(root, 'public', 'favicon.ico'), join(out, 'favicon.ico'));
 const missingPhotos = photos.filter((p) => !existsSync(join(out, p.src)));
 if (missingPhotos.length) throw new Error(`Photos missing from static/:\n${missingPhotos.map((p) => p.src).join('\n')}`);
-const lastmod = new Date().toISOString().slice(0, 10);
+// Only repair stories carry a real "last changed" date (their publish date); other pages
+// leave it out rather than claim they change on every build.
+const postDate = new Map(posts.map((p) => [p.path, p.date]));
 writeFileSync(
   join(out, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages
     .filter((p) => !p.path.includes('/page/'))
-    .map((p) => `  <url><loc>${site.origin}${p.path}</loc><lastmod>${lastmod}</lastmod></url>`)
+    .map((p) => {
+      const date = postDate.get(p.path);
+      return `  <url><loc>${site.origin}${p.path}</loc>${date ? `<lastmod>${date}</lastmod>` : ''}</url>`;
+    })
     .join('\n')}\n</urlset>\n`,
+);
+// The old WordPress site published its sitemap at /sitemap_index.xml (and Search Console may
+// still have that address), so keep it as an index pointing to the new sitemap.
+writeFileSync(
+  join(out, 'sitemap_index.xml'),
+  `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap><loc>${site.origin}/sitemap.xml</loc></sitemap>\n</sitemapindex>\n`,
 );
 writeFileSync(join(out, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.origin}/sitemap.xml\n`);
 writeFileSync(join(out, 'CNAME'), 'www.jspeedservice.com\n');

@@ -19,7 +19,8 @@ https://rkamphol.github.io/jspeedservice.com/ and the build puts `/jspeedservice
 front of its links (`BASE_PATH`); with the domain set in the repository's Pages settings
 the links stay at the site root.
 
-- `content.mjs` – text, services, repair stories and page addresses
+- `content.mjs` – text, services and page addresses
+- `posts.json` – the repair stories (text and photos), imported from the old site with `node scripts/import-posts.mjs <backup/public_html>`; run `scripts/import-originals.mjs` after it for the photos' web copies
 - `build.mjs` – page templates; fails if any old address is missing
 - `public/` – styles, script, logo and icons
 - `static/` – photos at their old `/wp-content/uploads/...` addresses: the full-size originals plus 640 px copies, made by `node scripts/import-originals.mjs <backup/public_html>` from a backup of the old site

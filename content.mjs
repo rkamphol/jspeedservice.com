@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+
 // Site content. Every `path` is the page's old address, written exactly as the
 // old site linked it (percent-encoded), so existing links and search rankings keep working.
 
@@ -28,7 +30,6 @@ export const paths = {
 };
 
 const S = paths.services;
-const MINI = '/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/';
 
 export const services = [
   {
@@ -91,64 +92,25 @@ export const services = [
 
 // Repair stories. `lead` is the opening line the old site showed; the full stories
 // weren't captured, so each page shows that line and invites the reader to call.
-export const posts = [
-  {
-    title: 'J SPEED SERVICES',
-    path: '/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/j-speed-services/',
-    date: '2018-09-06', dateTh: 'กันยายน 6, 2018',
-    cats: ['mini', 'other'], icon: 'car',
-    lead: 'ลูกค้าที่เบื่อมินิ อยากเปลี่ยนมาขับรุ่นใหญ่ หรือมี',
-  },
-  {
-    title: 'MINI R56 ความร้อนขึ้น',
-    path: MINI + 'mini-r56-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99%e0%b8%82%e0%b8%b6%e0%b9%89%e0%b8%99/',
-    date: '2018-03-21', dateTh: 'มีนาคม 21, 2018',
-    cats: ['mini'], icon: 'engine',
-    lead: 'MINI R56 ความร้อนขึ้น รถ mini R56 คันสีน้ำเงิน เจอ',
-  },
-  {
-    title: 'เคลมประกันอุบัติเหตุ',
-    path: MINI + '%e0%b9%80%e0%b8%84%e0%b8%a5%e0%b8%a1%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%81%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%b8%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4%e0%b9%80%e0%b8%ab%e0%b8%95%e0%b8%b8/',
-    date: '2018-03-17', dateTh: 'มีนาคม 17, 2018',
-    cats: ['mini'], icon: 'tow',
-    lead: 'ลูกค้าขับรถเกิดอุบัติเหตุบนท้องถนน ต้องการรถสไลด์',
-  },
-  {
-    title: 'เครื่องเร่งไม่ออก เครื่องยนต์อืด',
-    path: MINI + '%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%a3%e0%b9%88%e0%b8%87%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%ad%e0%b8%ad%e0%b8%81/',
-    date: '2018-03-12', dateTh: 'มีนาคม 12, 2018',
-    cats: ['mini'], icon: 'engine',
-    lead: 'วันนี้ลูกค้าขับรถมาซ่อมอาการ เครื่องเร่งไม่ออก',
-  },
-  {
-    title: 'ตรวจเช็คสภาพรถ',
-    path: MINI + '%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/',
-    date: '2018-01-18', dateTh: 'มกราคม 18, 2018',
-    cats: ['mini'], icon: 'check',
-    lead: 'ช่วงนี้ลูกค้าที่ซื้อรถ Mini แล้วเริ่มหมด warranty',
-  },
-  {
-    title: 'ซ่อม MINI COOPER R56',
-    path: MINI + '%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini-cooper-r56/',
-    date: '2017-12-24', dateTh: 'ธันวาคม 24, 2017',
-    cats: ['mini'], icon: 'car',
-    lead: 'ซ่อม Mini cooper R56 รถ Mini cooper R56 คันนี้',
-  },
-  {
-    title: 'ปัญหาเรื่องระบบเครื่องยนต์และระบบไฟ',
-    path: MINI + '%e0%b8%9b%e0%b8%b1%e0%b8%8d%e0%b8%ab%e0%b8%b2%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/',
-    date: '2017-11-29', dateTh: 'พฤศจิกายน 29, 2017',
-    cats: ['mini'], icon: 'air',
-    lead: 'ปัญหาเรื่องระบบเครื่องยนต์และระบบไฟ ช่วงนี้รถ bmw',
-  },
-  {
-    title: 'MINI ช่วงล่างเสียงดัง',
-    path: MINI + 'mini-%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/',
-    date: '2017-11-24', dateTh: 'พฤศจิกายน 24, 2017',
-    cats: ['mini'], icon: 'suspension',
-    lead: 'Mini ช่วงล่างเสียงดัง ลูกค้า Mini countryman R60',
-  },
-];
+// Repair stories, imported from the old site by scripts/import-posts.mjs (newest first).
+// `lead` is the card excerpt; `icon` stands in when a post has no photo.
+const postIcon = (t) =>
+  /แอร์|air/i.test(t) ? 'air'
+  : /เกียร์|gear/i.test(t) ? 'gear'
+  : /ช่วงล่าง|พวงมาลัย|เบรค|โช้ค/i.test(t) ? 'suspension'
+  : /อุบัติเหตุ|ชน|สไลด์/i.test(t) ? 'tow'
+  : /เครื่อง|overhaul|ความร้อน|น้ำมัน/i.test(t) ? 'engine'
+  : /ตรวจเช็ค|เช็ค/i.test(t) ? 'check'
+  : 'car';
+const excerpt = (body) => {
+  const first = body[0] ?? '';
+  return first.length > 90 ? `${first.slice(0, 90).replace(/\s+\S*$/, '')}…` : first;
+};
+export const posts = JSON.parse(readFileSync(new URL('./posts.json', import.meta.url), 'utf8')).map((p) => ({
+  ...p,
+  icon: postIcon(p.title),
+  lead: excerpt(p.body),
+}));
 
 export const categories = {
   mini: { name: 'งานซ่อม MINI', path: paths.catMini },
