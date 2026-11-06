@@ -77,9 +77,45 @@
   }
 
   const totop = document.querySelector('.totop');
-  if (totop) {
-    const update = () => totop.classList.toggle('is-visible', window.scrollY > 400);
-    window.addEventListener('scroll', update, { passive: true });
-    update();
+  const nav = document.querySelector('.mainnav');
+  const onScroll = () => {
+    totop?.classList.toggle('is-visible', window.scrollY > 400);
+    nav?.classList.toggle('is-scrolled', window.scrollY > 40);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // Scroll reveal: fade + rise once as things come into view, staggered within each row.
+  // Hidden state only exists under the `.js` class, so content is visible without JS.
+  const groups = [
+    '.svc-grid > *', '.post-grid > *', '.gallery > *', '.work-grid > *', '.contact-grid > *',
+    '.svc-links > *', '.why > *', '.checks > li', '.brands-sec__cards > *', '.facts > li', '.brands > *', '.chips > li',
+  ];
+  const singles = ['.head', '.about-band', '.section-title', '.prose', '.cta__in', '.mapsec__box', '.sidebar > *'];
+  const els = new Set(document.querySelectorAll('[data-reveal]'));
+  groups.forEach((sel) =>
+    document.querySelectorAll(sel).forEach((el) => {
+      el.style.setProperty('--i', Math.min([...el.parentElement.children].indexOf(el), 8) % 4);
+      els.add(el);
+    }),
+  );
+  singles.forEach((sel) => document.querySelectorAll(sel).forEach((el) => !el.closest('[data-reveal]') && els.add(el)));
+  document.querySelectorAll('.hero [data-reveal]').forEach((el, i) => el.style.setProperty('--i', i));
+
+  const show = (el) => el.classList.add('is-in');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    els.forEach(show);
+    return;
   }
+  const io = new IntersectionObserver(
+    (entries) => entries.forEach((e) => e.isIntersecting && (show(e.target), io.unobserve(e.target))),
+    { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
+  );
+  els.forEach((el) => {
+    if (el.closest('.hero')) return;
+    // Elements nested inside another revealed element would double-animate; skip them.
+    if ([...els].some((o) => o !== el && o.contains(el))) return show(el);
+    el.setAttribute('data-reveal', '');
+    io.observe(el);
+  });
 })();

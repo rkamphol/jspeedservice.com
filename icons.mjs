@@ -35,14 +35,3 @@ export const icon = (name, cls) => svg(paths[name] ?? paths.car, cls);
 
 export const facebookIcon =
   '<svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8.5a.5.5 0 0 1 .5-.5z"/></svg>';
-
-// The brand mark: two forward-leaning speed bars (blue and red) forming a "J".
-export const logoMark = `<svg class="brand__mark" viewBox="0 0 64 48" aria-hidden="true">
-  <defs>
-    <linearGradient id="lmB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f93ee"/><stop offset="1" stop-color="#04447e"/></linearGradient>
-    <linearGradient id="lmR" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4a3d"/><stop offset="1" stop-color="#b3121b"/></linearGradient>
-  </defs>
-  <path d="M30 2h14L30 38c-3 7-8 9-16 9H6l4-9h6c3 0 5-1 6-4z" fill="url(#lmR)"/>
-  <path d="M12 22h11l-6 14H6z" fill="url(#lmB)"/>
-  <path d="M48 2h12L52 22H40z" fill="url(#lmB)" opacity=".9"/>
-</svg>`;

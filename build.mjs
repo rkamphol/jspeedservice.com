@@ -6,7 +6,7 @@ import { mkdirSync, rmSync, writeFileSync, copyFileSync, cpSync, readFileSync, e
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { site, paths, services, posts, categories, aboutWork } from './content.mjs';
-import { icon, facebookIcon, logoMark } from './icons.mjs';
+import { icon, facebookIcon } from './icons.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const out = join(root, 'dist');
@@ -45,12 +45,18 @@ const picsFor = (s) => {
 const svcPic = Object.fromEntries(services.map((s, i) => [s.key, homeSvc[i]]));
 const postPic = new Map(posts.map((p, i) => [p, homePosts[i]]));
 
-const img = (p, alt, cls = '') =>
-  `<img${cls ? ` class="${cls}"` : ''} src="${p.src}" width="${p.w}" height="${p.h}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+// Photos use the full-size originals (`full`, plus a 640 px `half` for small screens)
+// imported by scripts/import-originals.mjs; `sizes` says how wide the photo shows.
+const SIZES = '(max-width: 600px) 100vw, (max-width: 1100px) 50vw, 33vw';
+const img = (p, alt, cls = '', sizes = SIZES) => {
+  const f = p.full ?? p;
+  const set = p.half ? ` srcset="${p.half.src} ${p.half.w}w, ${f.src} ${f.w}w" sizes="${sizes}"` : '';
+  return `<img${cls ? ` class="${cls}"` : ''} src="${f.src}"${set} width="${f.w}" height="${f.h}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+};
 
-const tile = (kind, i = 0, label = '', photo) =>
+const tile = (kind, i = 0, label = '', photo, sizes) =>
   photo
-    ? `<div class="ph ph--photo">${img(photo, label || 'ภาพงานซ่อม J SPEED SERVICE')}</div>`
+    ? `<div class="ph ph--photo">${img(photo, label || 'ภาพงานซ่อม J SPEED SERVICE', '', sizes)}</div>`
     : tileShape(kind, i, label);
 
 const tileShape = (kind, i = 0, label = '') =>
@@ -68,18 +74,18 @@ function header(active) {
   ].join('');
   return `
 <a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
-<header class="masthead">
-  <div class="wrap masthead__in">
-    <a class="brand" href="/" aria-label="${site.name} หน้าแรก">${logoMark}<span class="brand__text"><b>J SPEED</b> SERVICE<small>MINI · BMW Specialist</small></span></a>
-    <div class="masthead__contact">
-      <a class="hotline" href="tel:${site.tel}">${icon('phone')}<span>${site.phone}</span></a>
-      <span class="badge24">${icon('tow')}รถยกสไลด์ 24 ชม.</span>
-    </div>
+<div class="topbar">
+  <div class="wrap topbar__in">
+    <span class="topbar__hours">${icon('clock')}${site.hours.days} · 8:30 - 18:00 น.</span>
+    <span class="topbar__tow">${icon('tow')}รถยกสไลด์ทั่วประเทศ 24 ชม.</span>
+    <a class="topbar__fb" href="${site.facebook}" target="_blank" rel="noopener">${facebookIcon}facebook.com/jspeedservice</a>
   </div>
-</header>
-<nav class="mainnav" aria-label="เมนูหลัก">
+</div>
+<header class="mainnav">
   <div class="wrap mainnav__in">
+    <a class="brand" href="/" aria-label="${site.name} หน้าแรก"><img class="brand__logo" src="/assets/logo.png" width="218" height="112" alt=""></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">${icon('menu', 'ico ico--open')}${icon('close', 'ico ico--close')}<span>เมนู</span></button>
+    <nav aria-label="เมนูหลัก">
     <ul class="menu" id="menu">
       ${item('home', paths.home, 'หน้าแรก')}
       ${item('about', paths.about, 'เกี่ยวกับเรา')}
@@ -90,19 +96,20 @@ function header(active) {
       </li>
       ${item('contact', paths.contact, 'ติดต่อเรา')}
     </ul>
+    </nav>
     ${callButton('nav-call')}
   </div>
-</nav>`;
+</header>`;
 }
 
 function footer() {
   return `
 <footer class="footer">
   <div class="wrap">
-    <div class="footer__box">
+    <div>
       <div class="footer__grid">
         <div class="footer__brand">
-          <a class="brand brand--light" href="/">${logoMark}<span class="brand__text"><b>J SPEED</b> SERVICE<small>MINI · BMW Specialist</small></span></a>
+          <a class="brand brand--light" href="/"><img class="brand__logo" src="/assets/logo.png" width="218" height="112" alt="${site.name}"></a>
           <p>อู่ซ่อมรถ MINI BMW โดยทีมงานมืออาชีพ ตรวจเช็คด้วยระบบคอมพิวเตอร์ รับประกันงานซ่อม</p>
         </div>
         <div>
@@ -159,11 +166,13 @@ function layout({ path, title, description, active, body, type = 'website' }) {
 <meta property="og:description" content="${esc(description || site.description)}">
 <meta property="og:url" content="${url}">
 <meta property="og:locale" content="th_TH">
-<meta name="theme-color" content="#00529c">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#d71920">
+<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<script>document.documentElement.classList.add('js')</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Sarabun:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Sarabun:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="/assets/styles.css">
 ${path === '/' ? localBusinessJsonLd() : ''}
 </head>
@@ -225,15 +234,66 @@ const postCard = (p, i) => `
   </div>
 </article>`;
 
+// Photo card: the whole card is one link; the summary slides up on hover.
 const serviceCard = (s) => `
-<article class="svc">
-  <a class="svc__img" href="${s.path}" tabindex="-1" aria-hidden="true">${tile(s.icon, 1, s.name, svcPic[s.key])}</a>
-  <div class="svc__body">
-    <h2 class="svc__title"><a href="${s.path}">${icon(s.icon)}${s.name}</a></h2>
-    <p>${s.summary}</p>
-    <a class="svc__more" href="${s.path}">ดูรายละเอียด ${icon('arrow')}</a>
+<a class="svc" href="${s.path}">
+  <span class="svc__img" aria-hidden="true">${tile(s.icon, 1, s.name, svcPic[s.key])}</span>
+  <span class="svc__ico">${icon(s.icon)}</span>
+  <span class="svc__row"><h2 class="svc__title">${s.name}</h2><span class="svc__go">${icon('arrow')}</span></span>
+  <p class="svc__text">${s.summary}</p>
+</a>`;
+
+const productsCard = () => `
+  <section class="card">
+    <h2 class="card__h">ผลิตภัณฑ์ที่ใช้</h2>
+    <ul class="products">
+      <li>${icon('drop')}<span><b>น้ำมันเครื่องคุณภาพสูง</b>สังเคราะห์แท้ตามสเปคผู้ผลิต</span></li>
+      <li>${icon('gear')}<span><b>อะไหล่แท้ / เทียมคุณภาพ</b>มีทั้งของใหม่และมือสองแท้ เลือกได้</span></li>
+      <li>${icon('chip')}<span><b>เครื่องมือวิเคราะห์คอมพิวเตอร์</b>ตรวจเช็คระบบไฟฟ้าทั้งคัน</span></li>
+    </ul>
+    ${banners.length ? `<div class="banners">${banners.map((b) => img(b, 'ผลิตภัณฑ์ที่ใช้ในอู่ J SPEED SERVICE', '', '200px')).join('')}</div>` : ''}
+  </section>`;
+
+// Home: the products the shop uses, with the brand banners shown at their own size
+// (they are only 270 px wide, so they are never stretched).
+const brandName = (b) => (/acdelco/i.test(b.file) ? 'ACDelco' : /voltronic/i.test(b.file) ? 'Voltronic' : '');
+const brandNote = { ACDelco: 'ผลิตภัณฑ์ดูแลรถยนต์', Voltronic: 'Motor oil & lubricants' };
+const brandsSection = () => `
+<section class="section" aria-labelledby="brands-h">
+  <div class="wrap brands-sec">
+    <div class="brands-sec__copy">
+      <p class="eyebrow">Products</p>
+      <h2 class="section-title" id="brands-h">แบรนด์และอุปกรณ์ที่เราใช้</h2>
+      <p class="section-lead">เลือกใช้ผลิตภัณฑ์และอะไหล่คุณภาพ ตรงตามสเปคผู้ผลิต เพื่อให้รถของคุณกลับมาวิ่งได้อย่างมั่นใจ</p>
+      <ul class="checks">
+        <li>${icon('check')}<span><b>น้ำมันเครื่องคุณภาพสูง</b>สังเคราะห์แท้ตามสเปคผู้ผลิต</span></li>
+        <li>${icon('check')}<span><b>อะไหล่แท้ / เทียมคุณภาพ</b>มีทั้งของใหม่และมือสองแท้ เลือกได้</span></li>
+        <li>${icon('check')}<span><b>เครื่องมือวิเคราะห์คอมพิวเตอร์</b>ตรวจเช็คระบบไฟฟ้าทั้งคัน</span></li>
+      </ul>
+    </div>
+    <div class="brands-sec__cards">
+      ${banners
+        .map((b) => {
+          const name = brandName(b);
+          return `<figure class="brand-tile">${img(b, `ผลิตภัณฑ์ ${name} ที่ใช้ในอู่ J SPEED SERVICE`, '', '240px')}<figcaption><b>${name}</b>${brandNote[name] ?? ''}</figcaption></figure>`;
+        })
+        .join('')}
+    </div>
   </div>
-</article>`;
+</section>`;
+
+// Red info card: big title, a bold line, a small line and a large faded icon.
+// `tag` is the element (section in sidebars, li in lists); with `href` the whole card is a link.
+// `light` gives a grey information card; red is kept for cards you act on (call).
+const infoCard = ({ tag = 'section', h = 'h2', title, lead, text, ico, href, light = false }) => {
+  const cls = `infocard${light ? ' infocard--light' : ''}`;
+  const body = `<${h} class="infocard__title">${title}</${h}><p class="infocard__lead">${lead}</p><p>${text}</p>${icon(ico, 'infocard__ico')}`;
+  return href
+    ? `<${tag}><a class="${cls}" href="${href}">${body}</a></${tag}>`
+    : `<${tag} class="${cls}">${body}</${tag}>`;
+};
+const hoursInfo = { title: 'เวลาทำการ', lead: site.hours.days, text: site.hours.time, ico: 'clock' };
+const hoursCard = () => infoCard(hoursInfo);
 
 const sidebar = () => `
 <aside class="sidebar">
@@ -244,26 +304,19 @@ const sidebar = () => `
     <h3 class="card__note">${icon('tow')}นอกจากนี้เรายังมีบริการ รับส่งรถ นอกสถานที่ และมีบริการรถยกสไลด์ทั่วประเทศไทย 24 ชม.</h3>
     <a class="btn btn--small" href="${paths.about}">รู้จักเรามากขึ้น ${icon('arrow')}</a>
   </section>
-  <section class="card">
-    <h2 class="card__h">ผลิตภัณฑ์ที่ใช้</h2>
-    <ul class="products">
-      <li>${icon('drop')}<span><b>น้ำมันเครื่องคุณภาพสูง</b>สังเคราะห์แท้ตามสเปคผู้ผลิต</span></li>
-      <li>${icon('gear')}<span><b>อะไหล่แท้ / เทียมคุณภาพ</b>มีทั้งของใหม่และมือสองแท้ เลือกได้</span></li>
-      <li>${icon('chip')}<span><b>เครื่องมือวิเคราะห์คอมพิวเตอร์</b>ตรวจเช็คระบบไฟฟ้าทั้งคัน</span></li>
-    </ul>
-    ${banners.length ? `<div class="banners">${banners.map((b) => img(b, 'ผลิตภัณฑ์ที่ใช้ในอู่ J SPEED SERVICE')).join('')}</div>` : ''}
-  </section>
-  <section class="hours">
-    <h2>เวลาทำการ</h2>
-    <p class="hours__days">${site.hours.days}</p>
-    <p>${site.hours.time}</p>
-    ${icon('clock', 'hours__ico')}
-  </section>
+  ${productsCard()}
+  ${hoursCard()}
 </aside>`;
 
-const mapSection = () => `
-<section class="mapsec" aria-label="แผนที่">
+// `info: false` where the page already lists the contact details (the contact page).
+const mapSection = ({ info = true } = {}) => `
+<section class="mapsec" aria-labelledby="map-h">
   <div class="wrap">
+    <p class="eyebrow">Location</p>
+    <div class="head head--inline">
+      <h2 class="section-title" id="map-h">เดินทางมาที่อู่</h2>
+      <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.mapQuery)}" target="_blank" rel="noopener">${icon('pin')}เปิดใน Google Maps</a>
+    </div>
     <div class="mapsec__box">
       <div class="mapsec__frame">
       <iframe title="แผนที่ ${site.name}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-map
@@ -279,13 +332,12 @@ const mapSection = () => `
         <button class="mapctl__toggle" type="button" aria-expanded="false" aria-controls="mapctl-panel" aria-label="Map camera controls" title="ควบคุมแผนที่">${icon('move')}</button>
       </div>
       </div>
-      <div class="mapsec__card">
-        <h2>${icon('pin')}เดินทางมาที่อู่</h2>
-        <p>${site.hours.days}<br>${site.hours.time}</p>
-        ${callButton()}
-        <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.mapQuery)}" target="_blank" rel="noopener">เปิดใน Google Maps</a>
-      </div>
     </div>
+    ${info ? `<ul class="mapsec__info">
+      ${infoCard({ ...hoursInfo, tag: 'li', h: 'h3', light: true })}
+      ${infoCard({ tag: 'li', h: 'h3', title: 'โทรนัดคิว', lead: site.phone, text: 'โทรปรึกษาช่างและนัดเวลาเข้าซ่อม', ico: 'phone', href: `tel:${site.tel}` })}
+      ${infoCard({ tag: 'li', h: 'h3', title: 'รถยกสไลด์ 24 ชม.', lead: 'ทั่วประเทศไทย', text: 'บริการรับส่งรถนอกสถานที่', ico: 'tow', light: true })}
+    </ul>` : ''}
   </div>
 </section>`;
 
@@ -296,7 +348,7 @@ const ctaBand = () => `
       <h2>รถมีอาการผิดปกติ? ปรึกษาช่างได้ทันที</h2>
       <p>ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม รับประกันงานซ่อม</p>
     </div>
-    ${callButton('btn btn--call btn--lg')}
+    ${callButton('btn btn--white btn--lg')}
   </div>
 </section>`;
 
@@ -311,43 +363,87 @@ add({
   active: 'home',
   body: `
 <section class="hero">
-  <div class="hero__bg" aria-hidden="true">${workPics[5] ? img(workPics[5], '', 'hero__photo').replace(' loading="lazy"', ' fetchpriority="high"') : ''}</div>
-  <div class="wrap hero__in">
-    <div class="hero__copy">
-      <p class="eyebrow">อู่ซ่อมรถ MINI COOPER · BMW ทุกรุ่น</p>
-      <h2 class="hero__title">J SPEED SERVICE</h2>
-      <p class="hero__lead">บริการซ่อม รถมินิ MINI COOPER, BMW ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง เบรค คลัช แอร์ เปลี่ยนถ่ายน้ำมันเครื่อง เช็คระบบไฟฟ้าทั้งคัน</p>
-      <div class="hero__cta">
-        ${callButton('btn btn--call btn--lg')}
-        <a class="btn btn--ghost btn--lg" href="${paths.services}">ดูบริการของเรา ${icon('arrow')}</a>
+  <div class="wrap">
+    <h2 class="hero__title display" data-reveal>J SPEED <span>SERVICE</span></h2>
+    <div class="hero__top">
+      <p class="hero__lead" data-reveal>บริการซ่อม รถมินิ MINI COOPER, BMW ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง เบรค คลัช แอร์ เปลี่ยนถ่ายน้ำมันเครื่อง เช็คระบบไฟฟ้าทั้งคัน</p>
+      <div class="hero__cta" data-reveal>
+        ${callButton('btn btn--lg')}
+        <a class="btn btn--outline btn--lg" href="${paths.services}">ดูบริการของเรา ${icon('arrow')}</a>
       </div>
     </div>
-    <ul class="hero__facts">
-      <li>${icon('chip')}<span><b>วิเคราะห์ด้วยคอมพิวเตอร์</b>หาสาเหตุให้ถูกจุดก่อนซ่อม</span></li>
-      <li>${icon('shield')}<span><b>รับประกันงานซ่อม</b>อะไหล่แท้ เทียม มือสองแท้ เลือกได้</span></li>
-      <li>${icon('tow')}<span><b>รถยกสไลด์ 24 ชม.</b>รับส่งรถนอกสถานที่ทั่วประเทศ</span></li>
-    </ul>
+    <div class="hero__panel" data-reveal>
+      <ul class="stats">
+        <li><b class="display">24<small>ชม.</small></b><span>รถยกสไลด์ รับส่งรถทั่วประเทศ</span></li>
+        <li><b class="display">MINI<small>·</small>BMW</b><span>ซ่อมได้ทุกรุ่น ทุกระบบ</span></li>
+        <li><b class="display">8:30<small>น.</small></b><span>เปิด${site.hours.days} ถึง 18:00 น.</span></li>
+      </ul>
+      <div class="hero__media">
+        ${workPics[5] ? img(workPics[5], 'ช่างกำลังซ่อมรถในอู่ J SPEED SERVICE', '', '(max-width: 900px) 100vw, 800px').replace(' loading="lazy"', ' fetchpriority="high"') : ''}
+        <p class="hero__badge">${icon('chip')}<span><b>วิเคราะห์ด้วยคอมพิวเตอร์</b>แจ้งสาเหตุและราคาก่อนซ่อม</span></p>
+      </div>
+    </div>
   </div>
 </section>
-<section class="services-strip" aria-label="บริการหลัก">
-  <div class="wrap svc-grid">
-    ${services.map(serviceCard).join('')}
+<section class="section section--tint" aria-labelledby="svc-h">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">Our services</p><h2 class="section-title" id="svc-h">บริการของเรา</h2></div>
+      <p>ซ่อมและดูแลรถ MINI · BMW ครบทุกระบบ โดยทีมช่างเฉพาะทาง ตรวจเช็คด้วยคอมพิวเตอร์ รับประกันงานซ่อม</p>
+    </div>
+    <div class="svc-grid">${services.map(serviceCard).join('')}</div>
   </div>
 </section>
-<section class="home-main">
-  <div class="wrap with-sidebar">
-    <div class="content">
+<section class="section">
+  <div class="wrap">
+    <div class="about-band">
+      <div class="about-band__img">${tile('car', 0, 'ภายในอู่ J SPEED SERVICE', workPics[0])}</div>
+      <div>
+        <p class="eyebrow">About us</p>
+        <h2>อู่ J SPEED SERVICE ประสบการณ์ซ่อมรถ MINI · BMW ทุกรุ่น</h2>
+        <p>เราให้บริการซ่อมเครื่อง เกียร์ เบรค คลัช ช่วงล่าง ระบบแอร์ รวมทั้งระบบไฟโดยใช้เครื่องคอมพิวเตอร์ตรวจเช็คระบบไฟฟ้าต่างๆภายในรถยนต์ ให้บริการราคาถูก รับประกันคุณภาพงานซ่อม</p>
+        <ul class="about-band__list">
+          <li>${icon('check')}อะไหล่แท้ เทียมคุณภาพ และมือสองแท้ เลือกได้</li>
+          <li>${icon('check')}รับส่งรถนอกสถานที่ และรถยกสไลด์ 24 ชม.</li>
+        </ul>
+        <a class="btn btn--white" href="${paths.about}">รู้จักเรามากขึ้น ${icon('arrow')}</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--tint">
+  <div class="wrap why">
+    <div class="why__card">
+      <h2 class="why__tab">ทำไมต้อง J SPEED</h2>
       <h1 class="section-title">J SPEED SERVICE อู่ซ่อมรถ MINI BMW โดยทีมงานมืออาชีพ</h1>
-      <p class="section-lead">บริการซ่อมระบบไฮบริด (Hybrid) เปลี่ยนแบตเตอรี่ไฮบริด ตรวจเช็ค inverter และระบบไฟฟ้าต่างๆ และซ่อมงานทั่วไป ตั้งแต่หลังคา (เปิด-ปิดไม่ได้), เซนทรัลล็อค, รางกระจกเสีย, ทำสี, ใส่ชุดแต่ง ฯลฯ</p>
-      <div class="post-grid">${posts.map(postCard).join('')}</div>
-      <h2 class="section-title section-title--sm">บรรยากาศในอู่</h2>
-      <div class="gallery gallery--mosaic">
-        ${homeGallery.map((p, i) => tile('car', i, 'บรรยากาศในอู่ J SPEED SERVICE', p)).join('')}
+      <p>บริการซ่อมระบบไฮบริด (Hybrid) เปลี่ยนแบตเตอรี่ไฮบริด ตรวจเช็ค inverter และระบบไฟฟ้าต่างๆ และซ่อมงานทั่วไป ตั้งแต่หลังคา (เปิด-ปิดไม่ได้), เซนทรัลล็อค, รางกระจกเสีย, ทำสี, ใส่ชุดแต่ง ฯลฯ</p>
+      <div class="why__cols">
+        <div><h3>${icon('chip')}ตรวจถูกจุด</h3><p>วิเคราะห์ปัญหาด้วยคอมพิวเตอร์ก่อนซ่อมทุกครั้ง</p></div>
+        <div><h3>${icon('shield')}รับประกันงาน</h3><p>รับประกันงานซ่อม ให้ลูกค้าสบายใจ</p></div>
+        <div><h3>${icon('tow')}บริการถึงที่</h3><p>รถยกสไลด์ทั่วประเทศไทย 24 ชม.</p></div>
       </div>
     </div>
-    ${sidebar()}
+    <div class="why__media">${tile('car', 2, 'งานซ่อมในอู่ J SPEED SERVICE', workPics[2])}</div>
   </div>
 </section>
+<section class="section" aria-labelledby="posts-h">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">Repair stories</p><h2 class="section-title" id="posts-h">งานซ่อมล่าสุด</h2></div>
+      <a class="btn btn--outline" href="${categories.mini.path}">ดูงานซ่อมทั้งหมด ${icon('arrow')}</a>
+    </div>
+    <div class="post-grid post-grid--3">${posts.slice(0, 6).map(postCard).join('')}</div>
+  </div>
+</section>
+<section class="section section--tint" aria-labelledby="gal-h">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">Gallery</p><h2 class="section-title" id="gal-h">บรรยากาศในอู่</h2></div></div>
+    <div class="gallery gallery--mosaic">
+      ${homeGallery.map((p, i) => tile('car', i, 'บรรยากาศในอู่ J SPEED SERVICE', p, '(max-width: 900px) 50vw, 25vw')).join('')}
+    </div>
+  </div>
+</section>
+${brandsSection()}
 ${mapSection()}`,
 });
 
@@ -366,7 +462,7 @@ ${pageHead('เกี่ยวกับเรา', [['เกี่ยวกั�
       <p class="section-lead">บริการซ่อมรถ BMW, MINI COOPER ทุกรุ่น ตรวจเช็คด้วยระบบคอมพิวเตอร์ ลบไฟและเดินระบบไฟใหม่</p>
       <p>เราให้บริการซ่อมเครื่อง เกียร์ เบรค คลัช ช่วงล่าง ระบบแอร์ รวมทั้งระบบไฟโดยใช้เครื่องคอมพิวเตอร์ตรวจเช็คระบบไฟฟ้าต่างๆภายในรถยนต์ ให้บริการราคาถูก รับประกันคุณภาพงานซ่อม นอกจากนี้เรายังมีบริการ รับส่งรถ นอกสถานที่ และมีบริการรถยกสไลด์ทั่วประเทศไทย 24 ชม.</p>
     </div>
-    <ul class="hero__facts hero__facts--light">
+    <ul class="facts">
       <li>${icon('chip')}<span><b>วิเคราะห์ด้วยคอมพิวเตอร์</b>หาสาเหตุให้ถูกจุดก่อนซ่อม</span></li>
       <li>${icon('shield')}<span><b>รับประกันงานซ่อม</b>ให้ลูกค้าสบายใจ</span></li>
       <li>${icon('tow')}<span><b>รถยกสไลด์ 24 ชม.</b>ทั่วประเทศไทย</span></li>
@@ -388,7 +484,7 @@ ${pageHead('เกี่ยวกับเรา', [['เกี่ยวกั�
       ${[[paths.teamBmw, 'BMW', brandPic('bmw')], [paths.teamMini, 'MINI', brandPic('mini')]]
         .map(
           ([href, name, pic]) =>
-            `<a class="brandcard" href="${href}">${pic ? img(pic, name, 'brandcard__img') : `<span class="brandcard__badge">${name}</span>`}<span>ซ่อมรถ ${name} ทุกรุ่น ${icon('arrow')}</span></a>`,
+            `<a class="brandcard" href="${href}">${pic ? img(pic, name, 'brandcard__img', '120px') : `<span class="brandcard__badge">${name}</span>`}<span>ซ่อมรถ ${name} ทุกรุ่น ${icon('arrow')}</span></a>`,
         )
         .join('')}
     </div>
@@ -462,12 +558,7 @@ ${pageHead(name, [['บริการ', paths.services], [name]])}
         <h2 class="card__h">บริการอื่นๆ</h2>
         <ul class="sidelinks">${services.map((o) => `<li${o === s ? ' class="is-active"' : ''}><a href="${o.path}">${icon(o.icon)}${o.pageName ?? o.name}</a></li>`).join('')}</ul>
       </section>
-      <section class="hours">
-        <h2>เวลาทำการ</h2>
-        <p class="hours__days">${site.hours.days}</p>
-        <p>${site.hours.time}</p>
-        ${icon('clock', 'hours__ico')}
-      </section>
+      ${hoursCard()}
     </aside>
   </div>
 </section>
@@ -485,13 +576,13 @@ add({
 ${pageHead('ติดต่อเรา', [['ติดต่อเรา']], 'อู่ซ่อมรถมินิ MINI, BMW, BENZ โดยทีมงานมืออาชีพ')}
 <section class="section">
   <div class="wrap contact-grid">
-    <a class="contact-card contact-card--blue" href="tel:${site.tel}">${icon('phone')}<span><b>โทรหาเรา</b>${site.phone}</span></a>
+    <a class="contact-card contact-card--accent" href="tel:${site.tel}">${icon('phone')}<span><b>โทรหาเรา</b>${site.phone}</span></a>
     <div class="contact-card">${icon('clock')}<span><b>เวลาทำการ</b>${site.hours.days}<br>8:30 - 18:00 น.</span></div>
     <a class="contact-card" href="${site.facebook}" target="_blank" rel="noopener">${facebookIcon}<span><b>Facebook</b>facebook.com/jspeedservice</span></a>
     <div class="contact-card">${icon('tow')}<span><b>รถยกสไลด์ 24 ชม.</b>รับส่งรถนอกสถานที่ทั่วประเทศไทย</span></div>
   </div>
 </section>
-${mapSection()}`,
+${mapSection({ info: false })}`,
 });
 
 // Repair stories
@@ -509,7 +600,7 @@ ${pageHead(p.title, [[categories[p.cats[0]].name, categories[p.cats[0]].path], [
   <div class="wrap with-sidebar">
     <article class="content">
       ${postMeta(p)}
-      <div class="article__img">${tile(p.icon, i, p.title, postPic.get(p))}</div>
+      <div class="article__img">${tile(p.icon, i, p.title, postPic.get(p), '(max-width: 1100px) 100vw, 800px')}</div>
       <div class="prose">
         <p>${p.lead}…</p>
         <p>หากรถของคุณมีอาการคล้ายกัน ทีมช่าง J SPEED SERVICE พร้อมตรวจเช็คด้วยเครื่องคอมพิวเตอร์ แจ้งสาเหตุและราคาก่อนซ่อม และรับประกันงานซ่อมทุกงาน</p>
@@ -625,10 +716,11 @@ writeFileSync(
   }).replace('<head>', '<head>\n<meta name="robots" content="noindex">'),
 );
 mkdirSync(join(out, 'assets'), { recursive: true });
-for (const f of ['styles.css', 'main.js', 'favicon.svg']) copyFileSync(join(root, 'public', f), join(out, 'assets', f));
+for (const f of ['styles.css', 'main.js', 'logo.png', 'favicon-32.png', 'apple-touch-icon.png']) copyFileSync(join(root, 'public', f), join(out, 'assets', f));
 // Photos at their old addresses (/wp-content/uploads/...). Full-size originals dropped
 // into static/ at the same paths replace these.
 cpSync(join(root, 'static'), out, { recursive: true });
+copyFileSync(join(root, 'public', 'favicon.ico'), join(out, 'favicon.ico'));
 const missingPhotos = photos.filter((p) => !existsSync(join(out, p.src)));
 if (missingPhotos.length) throw new Error(`Photos missing from static/:\n${missingPhotos.map((p) => p.src).join('\n')}`);
 const lastmod = new Date().toISOString().slice(0, 10);

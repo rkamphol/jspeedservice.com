@@ -2,7 +2,7 @@
 // old site linked it (percent-encoded), so existing links and search rankings keep working.
 
 export const site = {
-  origin: 'http://www.jspeedservice.com',
+  origin: 'https://www.jspeedservice.com',
   name: 'J SPEED SERVICE',
   title: 'อู่มินิ อู่ซ่อมรถ มินิ MINI BMW – J SPEED SERVICE 08-333-333-22',
   description:
