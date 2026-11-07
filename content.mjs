@@ -15,7 +15,7 @@ export const site = {
     'อู่ซ่อม MINI Cooper และ BMW ทุกรุ่น ซอยคลองลำเจียก 41 บึงกุ่ม ใกล้เลียบด่วนรามอินทรา ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม รับประกันงาน โทร 08-333-333-22',
   phone: '08-333-333-22',
   tel: '0833333322',
-  facebook: 'http://www.facebook.com/jspeedservice',
+  facebook: 'https://www.facebook.com/jspeedservice',
   hours: { days: 'ทุกวันจันทร์ - เสาร์', time: 'เปิดให้บริการตั้งแต่เวลา 8:30 - 18:00 น.' },
   // Must match the Google Business Profile word for word (local search compares them).
   address: { street: 'ซอยคลองลำเจียก 41', area: 'แขวงนวมินทร์ เขตบึงกุ่ม', city: 'กรุงเทพมหานคร', postcode: '10230' },
