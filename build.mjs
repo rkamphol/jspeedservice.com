@@ -5,11 +5,16 @@
 import { mkdirSync, rmSync, writeFileSync, copyFileSync, cpSync, readFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { site, paths, services, posts, categories, aboutWork } from './content.mjs';
 import { icon, facebookIcon } from './icons.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const out = join(root, 'dist');
+// Link to a file in public/ (served at /assets/) with a short hash of its content, so
+// browsers and Cloudflare fetch the new copy as soon as the file changes.
+const asset = (file) =>
+  `/assets/${file}?v=${createHash('sha256').update(readFileSync(join(root, 'public', file))).digest('hex').slice(0, 8)}`;
 const year = new Date().getFullYear();
 // Pages link from the site root (/assets/..., /บริการ/). When the site is served from a
 // sub-folder (the GitHub Pages preview at <user>.github.io/<repo>/, before the custom
@@ -54,7 +59,7 @@ const brandPic = (name) => aboutPics.find((p) => p.file.startsWith(name));
 const brandPages = [
   { path: paths.teamMini, name: 'MINI', short: 'MINI', pic: brandPic('mini') },
   { path: paths.teamBmw, name: 'BMW', short: 'BMW', pic: brandPic('bmw') },
-  { path: paths.teamBenz, name: 'Mercedes-Benz', short: 'BENZ', logo: '/assets/brand-benz.png' },
+  { path: paths.teamBenz, name: 'Mercedes-Benz', short: 'BENZ', logo: asset('brand-benz.png') },
 ];
 const servicePics = onPage(paths.services).sort(byPos);
 const pool = uniq([...servicePics, ...services.flatMap((s) => onPage(s.path)), ...homeSvc]);
@@ -106,7 +111,7 @@ function header(active) {
 </div>
 <header class="mainnav">
   <div class="wrap mainnav__in">
-    <a class="brand" href="/" aria-label="${site.name} หน้าแรก"><img class="brand__logo" src="/assets/logo.png" width="218" height="112" alt=""></a>
+    <a class="brand" href="/" aria-label="${site.name} หน้าแรก"><img class="brand__logo" src="${asset('logo.png')}" width="218" height="112" alt=""></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="เมนู">${icon('menu', 'ico ico--open')}${icon('close', 'ico ico--close')}<span>เมนู</span></button>
     <nav aria-label="เมนูหลัก">
     <ul class="menu" id="menu">
@@ -132,7 +137,7 @@ function footer() {
     <div>
       <div class="footer__grid">
         <div class="footer__brand">
-          <a class="brand brand--light" href="/"><img class="brand__logo" src="/assets/logo.png" width="218" height="112" alt="${site.name}"></a>
+          <a class="brand brand--light" href="/"><img class="brand__logo" src="${asset('logo.png')}" width="218" height="112" alt="${site.name}"></a>
           <p>อู่ซ่อมรถยุโรป MINI BMW BENZ โดยทีมงานมืออาชีพ ตรวจเช็คด้วยระบบคอมพิวเตอร์ รับประกันงานซ่อม</p>
         </div>
         <div>
@@ -171,7 +176,7 @@ function footer() {
   </div>
 </footer>
 <a class="totop" href="#top" aria-label="กลับขึ้นด้านบน">${icon('up')}</a>
-<script src="/assets/main.js" defer></script>`;
+<script src="${asset('main.js')}" defer></script>`;
 }
 
 // Heading fonts swap in; the body font is `optional` so long text never jumps when it
@@ -201,15 +206,15 @@ function layout({ path, title, seoTitle = title, description, active, body, type
 <meta property="og:image" content="${ogImage}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#d71920">
-<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" href="${asset('favicon-32.png')}" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="${asset('apple-touch-icon.png')}">
 <script>document.documentElement.classList.add('js')</script>
 ${googleTag()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FONTS}">
 <link rel="stylesheet" href="${BODY_FONT}">
-<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="${asset('styles.css')}">
 ${[...(path === '/' || path === paths.contact ? [localBusiness] : []), ...jsonLd].map(ldScript).join('\n')}
 </head>
 <body id="top">
@@ -286,11 +291,14 @@ function pageHead(title, crumbs, lead = '') {
 </section>`;
 }
 
+// Byline on stories and the title of the author archive (/author/jack/).
+const authorName = `อู่ ${site.name}`;
+
 const postMeta = (p) => `
 <ul class="meta">
-  <li>${icon('folder')}Posted in ${p.cats.map((c) => `<a href="${categories[c].path}">${categories[c].name}</a>`).join(', ')}</li>
+  <li>${icon('folder')}หมวด ${p.cats.map((c) => `<a href="${categories[c].path}">${categories[c].name}</a>`).join(', ')}</li>
   <li>${icon('calendar')}<time datetime="${p.date}">${p.dateTh}</time></li>
-  <li>${icon('user')}by <a href="${paths.author}">อู่ซ่อมมินิ</a></li>
+  <li>${icon('user')}โดย <a href="${paths.author}">${authorName}</a></li>
 </ul>`;
 
 const postCard = (p, i) => `
@@ -651,7 +659,7 @@ add({
 ${pageHead('ติดต่อเรา', [['ติดต่อเรา']], 'อู่ซ่อมรถยุโรป MINI, BMW, BENZ โดยทีมงานมืออาชีพ')}
 <section class="section">
   <div class="wrap contact-grid">
-    <a class="contact-card contact-card--accent" href="tel:${site.tel}">${icon('phone')}<span><b>โทรหาเรา</b>${site.phone}</span></a>
+    <a class="contact-card contact-card--accent" href="tel:${site.tel}">${icon('phone')}<span><b>โทรหาเรา</b><span class="contact-card__num">${site.phone}</span></span></a>
     <div class="contact-card">${icon('clock')}<span><b>เวลาทำการ</b>${site.hours.days}<br>8:30 - 18:00 น.</span></div>
     <a class="contact-card" href="${site.facebook}" target="_blank" rel="noopener">${facebookIcon}<span><b>Facebook</b>facebook.com/jspeedservice</span></a>
     <div class="contact-card">${icon('tow')}<span><b>รถยกสไลด์ 24 ชม.</b>รับส่งรถนอกสถานที่ทั่วประเทศไทย</span></div>
@@ -738,7 +746,7 @@ for (const [key, c] of Object.entries(categories)) {
   const seo = { mini: 'งานซ่อม MINI Cooper เคสซ่อมจริง', other: 'งานซ่อมรถยุโรป BMW Benz และ MINI อื่นๆ' }[key];
   archive(c.path, c.name, posts.filter((p) => p.cats.includes(key)), [[c.name]], seo);
 }
-archive(paths.author, 'อู่ซ่อมมินิ', posts, [['อู่ซ่อมมินิ']], 'รวมงานซ่อมรถยุโรป MINI BMW Benz ทั้งหมด');
+archive(paths.author, authorName, posts, [[authorName]], 'รวมงานซ่อมรถยุโรป MINI BMW Benz ทั้งหมด');
 
 // Brand pages (/team-view/mini/ and /bmw/ are old addresses; /benz/ is new)
 for (const { path, name: brand } of brandPages) {
