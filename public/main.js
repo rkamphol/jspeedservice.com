@@ -1,5 +1,16 @@
-// Phone menu, services sub-menu, gallery filters and the back-to-top button.
+// Phone menu, services sub-menu, gallery filters, back-to-top button, click tracking.
 (() => {
+  // Report the clicks that matter to the shop as Google Analytics events: calls, the map and
+  // Facebook. `gtag` only exists on the live domain (see googleTag in build.mjs).
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href]');
+    if (!a || typeof window.gtag !== 'function') return;
+    const href = a.getAttribute('href');
+    const where = a.closest('.topbar, header, footer, section, aside')?.className.split(' ')[0] || 'page';
+    const name = href.startsWith('tel:') ? 'phone_call' : /google\.[a-z.]+\/maps/.test(href) ? 'open_map' : /facebook\.com/.test(href) ? 'facebook_click' : '';
+    if (name) window.gtag('event', name, { link_url: href, link_location: where, page_path: location.pathname });
+  });
+
   const toggle = document.querySelector('.menu-toggle');
   const menu = document.getElementById('menu');
   if (toggle && menu) {

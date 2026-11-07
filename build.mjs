@@ -180,6 +180,7 @@ function layout({ path, title, description, active, body, type = 'website' }) {
 <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <script>document.documentElement.classList.add('js')</script>
+${googleTag()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Sarabun:wght@400;500;700&display=swap">
@@ -195,6 +196,26 @@ ${footer()}
 </body>
 </html>
 `;
+}
+
+// Google Analytics 4 + Google Ads, through one gtag.js. Only runs on the live domain, so
+// local previews and the github.io copy don't add visits to the reports.
+function googleTag() {
+  const { ga4, ads, host } = site.analytics;
+  return `<script>
+(function () {
+  if (location.hostname !== ${JSON.stringify(host)}) return;
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=${ga4}';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { dataLayer.push(arguments); };
+  gtag('js', new Date());
+  gtag('config', '${ga4}');
+  gtag('config', '${ads}');
+})();
+</script>`;
 }
 
 function localBusinessJsonLd() {
@@ -729,6 +750,63 @@ for (const p of pages) {
 const missing = legacyLinks.filter((u) => !seen.has(fsPath(u)));
 if (missing.length) throw new Error(`Old addresses without a page:\n${missing.map(fsPath).join('\n')}`);
 
+// ---------- forwarding pages for the old site's other addresses ----------
+// old-addresses.txt (scripts/collect-old-addresses.mjs) lists every page the old WordPress
+// site had. Each one the new site has no page for gets a tiny page that sends visitors and
+// search engines on to the closest new page (GitHub Pages can't do server redirects).
+const pageAt = new Map(pages.map((p) => [fsPath(p.path), p.path])); // decoded folder -> link
+const svc = (key) => services.find((s) => s.key === key).path;
+const topic = (t) =>
+  /เครื่อง/.test(t) ? svc('engine') : /เกียร์/.test(t) ? svc('gear') : /ช่วงล่าง/.test(t) ? svc('suspension') : /แอร์|ไฟฟ้า/.test(t) ? svc('air') : null;
+const nearest = (dir) => {
+  for (let d = dir; d !== '/'; d = d.replace(/[^/]+\/$/, '')) if (pageAt.has(d)) return pageAt.get(d);
+  return '/';
+};
+const postBases = { '/งานซ่อม-mini/': categories.mini.path, '/อื่นๆ/': categories.other.path };
+const OLD_PER_PAGE = 4; // the old category listings showed 4 stories a page
+function forwardTarget(old) {
+  let m;
+  if ((m = old.match(/^(.*\/)attachment\/[^/]+\/$/))) return m[1] === '/หน้าแรก/' ? '/' : nearest(m[1]);
+  if ((m = old.match(/^\/portfolio-view\/([^/]+)\//))) return topic(m[1]) ?? paths.services;
+  if ((m = old.match(/^\/portfolio_category\/([^/]+)\//))) return topic(m[1]) ?? paths.services;
+  if ((m = old.match(/^\/portfolio_tag\/([^/]+)\//)))
+    return /bmw/i.test(m[1]) ? paths.teamBmw : topic(m[1]) ?? (/mini|มินิ/i.test(m[1]) ? paths.teamMini : paths.services);
+  if ((m = old.match(/^(\/category\/[^/]+\/)page\/(\d+)\/$/))) {
+    const n = Math.floor(((Number(m[2]) - 1) * OLD_PER_PAGE) / PER_PAGE) + 1; // page holding the same stories
+    const dir = n > 1 ? `${m[1]}page/${n}/` : m[1];
+    return pageAt.get(dir) ?? nearest(m[1]);
+  }
+  if (postBases[old]) return postBases[old];
+  return nearest(old.replace(/page\/\d+\/$/, ''));
+}
+const forwardPage = (to) => {
+  const href = esc(base + to);
+  return `<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>${esc(site.name)} – หน้านี้ย้ายแล้ว</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="${esc(site.origin + to)}">
+<meta http-equiv="refresh" content="0; url=${href}">
+<script>location.replace(${JSON.stringify(base + to)} + location.hash)</script>
+</head>
+<body><p>หน้านี้ย้ายไปที่ <a href="${href}">${esc(site.origin + to)}</a></p></body>
+</html>
+`;
+};
+const oldAddresses = readFileSync(join(root, 'old-addresses.txt'), 'utf8').split('\n').filter(Boolean);
+let forwards = 0;
+for (const old of oldAddresses) {
+  if (pageAt.has(old)) continue; // the new site has this page
+  const to = forwardTarget(old);
+  if (!pageAt.has(fsPath(to))) throw new Error(`Forward for ${old} points to ${to}, which is not a page`);
+  const file = join(out, old, 'index.html');
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, forwardPage(to));
+  forwards++;
+}
+
 // 404, assets, sitemap, robots, custom domain
 writeFileSync(
   join(out, '404.html'),
@@ -772,4 +850,4 @@ writeFileSync(join(out, 'CNAME'), 'www.jspeedservice.com\n');
 writeFileSync(join(out, '.nojekyll'), '');
 if (!existsSync(join(out, 'index.html'))) throw new Error('index.html missing');
 
-console.log(`Built ${pages.length} pages into dist/${base ? ` for ${base}/` : ''} — all ${legacyLinks.length} old addresses present.`);
+console.log(`Built ${pages.length} pages into dist/${base ? ` for ${base}/` : ''} — all ${legacyLinks.length} old addresses present, ${forwards} more forwarded.`);

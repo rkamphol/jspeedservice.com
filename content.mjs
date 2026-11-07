@@ -14,6 +14,8 @@ export const site = {
   facebook: 'http://www.facebook.com/jspeedservice',
   hours: { days: 'ทุกวันจันทร์ - เสาร์', time: 'เปิดให้บริการตั้งแต่เวลา 8:30 - 18:00 น.' },
   mapQuery: 'J Speed Service อู่ซ่อมมินิ กรุงเทพ',
+  // Google tags, loaded only on the live domain (not locally or on the github.io preview).
+  analytics: { ga4: 'G-DKCWG9RL8H', ads: 'AW-1002081090', host: 'www.jspeedservice.com' },
 };
 
 export const paths = {
