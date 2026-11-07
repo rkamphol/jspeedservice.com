@@ -25,6 +25,9 @@ const withBase = (html) =>
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const fsPath = (p) => decodeURIComponent(p);
+// Cut text to at most `n` characters at a space, for meta descriptions.
+const clip = (t, n) => (t.length <= n ? t : `${t.slice(0, n).replace(/\s+\S*$/, '')}…`);
+const ldScript = (data) => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
 const addressText = `${site.address.street} ${site.address.area} ${site.address.city} ${site.address.postcode}`;
 
 // ---------- shared pieces ----------
@@ -45,6 +48,8 @@ const banners = home.filter((p) => /banner/.test(p.file));
 const homeGallery = home.filter((p) => p.y > 3500 && !/banner/.test(p.file));
 const aboutPics = onPage(paths.about).sort(byPos);
 const workPics = aboutPics.filter((p) => p.w > 500);
+// Shared-link picture for pages without a photo of their own (the home hero photo).
+const defaultImage = (workPics[5].full ?? workPics[5]).src;
 const brandPic = (name) => aboutPics.find((p) => p.file.startsWith(name));
 const servicePics = onPage(paths.services).sort(byPos);
 const pool = uniq([...servicePics, ...services.flatMap((s) => onPage(s.path)), ...homeSvc]);
@@ -61,8 +66,10 @@ const postPics = (p) => onPage(p.path).filter((x) => x.post).sort(byPos);
 const SIZES = '(max-width: 600px) 100vw, (max-width: 1100px) 50vw, 33vw';
 const img = (p, alt, cls = '', sizes = SIZES) => {
   const f = p.full ?? p;
-  const set = p.half ? ` srcset="${p.half.src} ${p.half.w}w, ${f.src} ${f.w}w" sizes="${sizes}"` : '';
-  return `<img${cls ? ` class="${cls}"` : ''} src="${f.src}"${set} width="${f.w}" height="${f.h}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+  // WebP sizes (scripts/make-webp.mjs) when there are any; the JPEG/PNG stays as `src`.
+  const list = p.webp ?? (p.half ? [p.half, f] : []);
+  const set = list.length > 1 || p.webp ? ` srcset="${list.map((x) => `${x.src} ${x.w}w`).join(', ')}" sizes="${sizes}"` : '';
+  return `<img${cls ? ` class="${cls}"` : ''} src="${f.src}"${set} width="${f.w}" height="${f.h}" alt="${esc(p.desc ?? alt)}" loading="lazy" decoding="async">`;
 };
 
 const tile = (kind, i = 0, label = '', photo, sizes) =>
@@ -74,7 +81,7 @@ const tileShape = (kind, i = 0, label = '') =>
   `<div class="ph ph--${kind} ph--v${i % 4}" role="img" aria-label="${esc(label || 'ภาพงานซ่อม')}">${icon(kind, 'ph__ico')}</div>`;
 
 const callButton = (cls = 'btn btn--call') =>
-  `<a class="${cls}" href="tel:${site.tel}">${icon('phone')}<span>โทร ${site.phone}</span></a>`;
+  `<a class="${cls}" href="tel:${site.tel}" aria-label="โทร ${site.phone}">${icon('phone')}<span>โทร ${site.phone}</span></a>`;
 
 function header(active) {
   const item = (key, href, label) =>
@@ -95,7 +102,7 @@ function header(active) {
 <header class="mainnav">
   <div class="wrap mainnav__in">
     <a class="brand" href="/" aria-label="${site.name} หน้าแรก"><img class="brand__logo" src="/assets/logo.png" width="218" height="112" alt=""></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">${icon('menu', 'ico ico--open')}${icon('close', 'ico ico--close')}<span>เมนู</span></button>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="เมนู">${icon('menu', 'ico ico--open')}${icon('close', 'ico ico--close')}<span>เมนู</span></button>
     <nav aria-label="เมนูหลัก">
     <ul class="menu" id="menu">
       ${item('home', paths.home, 'หน้าแรก')}
@@ -162,9 +169,16 @@ function footer() {
 <script src="/assets/main.js" defer></script>`;
 }
 
-function layout({ path, title, description, active, body, type = 'website' }) {
-  const fullTitle = path === '/' ? `${site.title} | ${site.description}` : `${title} - ${site.title}`;
+// Heading fonts swap in; the body font is `optional` so long text never jumps when it
+// arrives (a first visit may show the system Thai font for body text instead).
+const FONTS = 'https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Orbitron:wght@700;800;900&display=swap';
+const BODY_FONT = 'https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;700&display=optional';
+
+function layout({ path, title, seoTitle = title, description, active, body, type = 'website', image, jsonLd = [] }) {
+  const fullTitle =
+    path === '/' ? site.homeTitle : (seoTitle + site.titleTail).length <= 70 ? seoTitle + site.titleTail : `${seoTitle} | ${site.name}`;
   const url = site.origin + path;
+  const ogImage = site.origin + (image ?? defaultImage);
   return `<!doctype html>
 <html lang="th">
 <head>
@@ -178,6 +192,9 @@ function layout({ path, title, description, active, body, type = 'website' }) {
 <meta property="og:description" content="${esc(description || site.description)}">
 <meta property="og:url" content="${url}">
 <meta property="og:locale" content="th_TH">
+<meta property="og:site_name" content="${site.name}">
+<meta property="og:image" content="${ogImage}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#d71920">
 <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -185,9 +202,10 @@ function layout({ path, title, description, active, body, type = 'website' }) {
 ${googleTag()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Sarabun:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="${FONTS}">
+<link rel="stylesheet" href="${BODY_FONT}">
 <link rel="stylesheet" href="/assets/styles.css">
-${path === '/' ? localBusinessJsonLd() : ''}
+${[...(path === '/' || path === paths.contact ? [localBusiness] : []), ...jsonLd].map(ldScript).join('\n')}
 </head>
 <body id="top">
 ${header(active)}
@@ -220,8 +238,7 @@ function googleTag() {
 </script>`;
 }
 
-function localBusinessJsonLd() {
-  const data = {
+const localBusiness = {
     '@context': 'https://schema.org',
     '@type': 'AutoRepair',
     name: site.name,
@@ -239,9 +256,7 @@ function localBusinessJsonLd() {
     },
     areaServed: 'กรุงเทพมหานคร',
     sameAs: [site.facebook],
-  };
-  return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
-}
+};
 
 function pageHead(title, crumbs, lead = '') {
   const trail = [['หน้าแรก', '/'], ...crumbs]
@@ -249,7 +264,14 @@ function pageHead(title, crumbs, lead = '') {
       i === all.length - 1 ? `<li aria-current="page">${label}</li>` : `<li><a href="${href}">${label}</a></li>`,
     )
     .join('');
-  return `
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [['หน้าแรก', '/'], ...crumbs].map(([name, href], i) => ({
+      '@type': 'ListItem', position: i + 1, name, ...(href ? { item: site.origin + href } : {}),
+    })),
+  };
+  return `${ldScript(ld)}
 <section class="pagehead">
   <div class="wrap">
     <nav class="crumbs" aria-label="breadcrumb"><ol>${trail}</ol></nav>
@@ -408,7 +430,7 @@ add({
   body: `
 <section class="hero">
   <div class="wrap">
-    <h2 class="hero__title display" data-reveal>J SPEED <span>SERVICE</span></h2>
+    <h1 class="hero__title display" data-reveal>J SPEED <span>SERVICE</span></h1>
     <div class="hero__top">
       <p class="hero__lead" data-reveal>บริการซ่อม รถมินิ MINI COOPER, BMW ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง เบรค คลัช แอร์ เปลี่ยนถ่ายน้ำมันเครื่อง เช็คระบบไฟฟ้าทั้งคัน</p>
       <div class="hero__cta" data-reveal>
@@ -459,7 +481,7 @@ add({
   <div class="wrap why">
     <div class="why__card">
       <h2 class="why__tab">ทำไมต้อง J SPEED</h2>
-      <h1 class="section-title">J SPEED SERVICE อู่ซ่อมรถ MINI BMW โดยทีมงานมืออาชีพ</h1>
+      <h2 class="section-title">J SPEED SERVICE อู่ซ่อมรถ MINI BMW โดยทีมงานมืออาชีพ</h2>
       <p>บริการซ่อมระบบไฮบริด (Hybrid) เปลี่ยนแบตเตอรี่ไฮบริด ตรวจเช็ค inverter และระบบไฟฟ้าต่างๆ และซ่อมงานทั่วไป ตั้งแต่หลังคา (เปิด-ปิดไม่ได้), เซนทรัลล็อค, รางกระจกเสีย, ทำสี, ใส่ชุดแต่ง ฯลฯ</p>
       <div class="why__cols">
         <div><h3>${icon('chip')}ตรวจถูกจุด</h3><p>วิเคราะห์ปัญหาด้วยคอมพิวเตอร์ก่อนซ่อมทุกครั้ง</p></div>
@@ -495,8 +517,9 @@ ${mapSection()}`,
 add({
   path: paths.about,
   title: 'เกี่ยวกับเรา',
+  seoTitle: 'เกี่ยวกับอู่ซ่อม MINI Cooper และ BMW ทุกรุ่น',
   active: 'about',
-  description: 'อู่ J SPEED SERVICE บริการซ่อมรถ bmw, mini cooper ทุกรุ่น ตรวจเช็คด้วยระบบคอมพิวเตอร์ ลบไฟและเดินระบบไฟใหม่',
+  description: 'รู้จักอู่ J SPEED SERVICE อู่ซ่อม MINI Cooper และ BMW ทุกรุ่น ย่านบึงกุ่ม รามอินทรา ตรวจเช็คด้วยระบบคอมพิวเตอร์ ซ่อมเครื่อง เกียร์ ช่วงล่าง แอร์ และระบบไฟ รับประกันงานซ่อม',
   body: `
 ${pageHead('เกี่ยวกับเรา', [['เกี่ยวกับเรา']])}
 <section class="section">
@@ -548,8 +571,9 @@ servicePageUrls.forEach((url, pageIndex) => {
   add({
     path: url,
     title: pageIndex ? `บริการ – หน้า ${pageIndex + 1}` : 'บริการ',
+    seoTitle: `บริการซ่อม MINI Cooper และ BMW${pageIndex ? ` – หน้า ${pageIndex + 1}` : ''}`,
     active: 'services',
-    description: 'บริการซ่อมรถ MINI BMW: ระบบเครื่องยนต์ ระบบเกียร์ ช่วงล่าง ระบบแอร์และระบบไฟฟ้า',
+    description: `บริการซ่อม MINI Cooper และ BMW ทุกรุ่น: ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง แอร์และระบบไฟฟ้า ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม โทร ${site.phone}${pageIndex ? ` (หน้า ${pageIndex + 1})` : ''}`,
     body: `
 ${pageHead('บริการ', [['บริการ']])}
 <section class="section">
@@ -583,8 +607,9 @@ for (const s of services) {
   add({
     path: s.path,
     title: name,
+    seoTitle: `${name} MINI Cooper และ BMW`,
     active: 'services',
-    description: s.body[0].slice(0, 155),
+    description: `${clip(s.body[0], 120)} ${site.name} โทร ${site.phone}`,
     body: `
 ${pageHead(name, [['บริการ', paths.services], [name]])}
 <section class="section">
@@ -614,6 +639,7 @@ ${ctaBand()}`,
 add({
   path: paths.contact,
   title: 'ติดต่อ อู่ซ่อมรถมินิ MINI BMW BENZ',
+  seoTitle: 'ติดต่อ แผนที่อู่ ซอยคลองลำเจียก 41 บึงกุ่ม',
   active: 'contact',
   description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถมินิ MINI BMW ${addressText} โทร ${site.phone} ${site.hours.days} 8:30 - 18:00 น.`,
   body: `
@@ -641,7 +667,19 @@ posts.forEach((p, i) => {
     title: p.title,
     active: '',
     type: 'article',
-    description: `${p.lead} – J SPEED SERVICE อู่ซ่อมรถ MINI BMW`,
+    description: `${clip(p.body.join(' '), 100)} ซ่อมโดย J SPEED SERVICE อู่ซ่อมมินิ BMW บึงกุ่ม โทร ${site.phone}`,
+    image: cover && (cover.full ?? cover).src,
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: p.title.slice(0, 110),
+      datePublished: p.date,
+      inLanguage: 'th',
+      mainEntityOfPage: site.origin + p.path,
+      ...(cover ? { image: [cover, ...more].map((x) => site.origin + (x.full ?? x).src) } : {}),
+      author: { '@type': 'Organization', name: site.name, url: site.origin + '/' },
+      publisher: { '@type': 'Organization', name: site.name, logo: { '@type': 'ImageObject', url: `${site.origin}/assets/logo.png` } },
+    }],
     body: `
 ${pageHead(p.title, [[categories[p.cats[0]].name, categories[p.cats[0]].path], [p.title]])}
 <section class="section">
@@ -666,7 +704,7 @@ ${pageHead(p.title, [[categories[p.cats[0]].name, categories[p.cats[0]].path], [
 
 // Category & author archives, 9 stories per page: <path>, <path>page/2/, ... like the old site.
 const PER_PAGE = 9;
-const archive = (path, title, list, crumbs) => {
+const archive = (path, title, list, crumbs, seoTitle = title) => {
   const pageCount = Math.max(1, Math.ceil(list.length / PER_PAGE));
   const url = (n) => (n === 1 ? path : `${path}page/${n}/`);
   for (let n = 1; n <= pageCount; n++) {
@@ -677,8 +715,9 @@ const archive = (path, title, list, crumbs) => {
     add({
       path: url(n),
       title: n === 1 ? title : `${title} – หน้า ${n}`,
+      seoTitle: n === 1 ? seoTitle : `${seoTitle} – หน้า ${n}`,
       active: '',
-      description: `${title} – รวมงานซ่อมรถ MINI BMW จาก J SPEED SERVICE`,
+      description: `${seoTitle}: รวมเคสซ่อมจริงของรถ MINI และ BMW ที่อู่ J SPEED SERVICE บึงกุ่ม อาการ สาเหตุ และวิธีแก้ ${n > 1 ? `(หน้า ${n})` : `โทร ${site.phone}`}`,
       body: `
 ${pageHead(title, crumbs)}
 <section class="section">
@@ -691,17 +730,19 @@ ${pageHead(title, crumbs)}
   }
 };
 for (const [key, c] of Object.entries(categories)) {
-  archive(c.path, c.name, posts.filter((p) => p.cats.includes(key)), [[c.name]]);
+  const seo = { mini: 'งานซ่อม MINI Cooper เคสซ่อมจริง', other: 'งานซ่อม BMW และ MINI อื่นๆ' }[key];
+  archive(c.path, c.name, posts.filter((p) => p.cats.includes(key)), [[c.name]], seo);
 }
-archive(paths.author, 'อู่ซ่อมมินิ', posts, [['อู่ซ่อมมินิ']]);
+archive(paths.author, 'อู่ซ่อมมินิ', posts, [['อู่ซ่อมมินิ']], 'รวมงานซ่อม MINI และ BMW ทั้งหมด');
 
 // Brand pages
 for (const [path, brand] of [[paths.teamBmw, 'BMW'], [paths.teamMini, 'MINI']]) {
   add({
     path,
     title: brand,
+    seoTitle: `อู่ซ่อม ${brand} ทุกรุ่น บึงกุ่ม รามอินทรา`,
     active: 'about',
-    description: `ซ่อมรถ ${brand} ทุกรุ่น โดย J SPEED SERVICE`,
+    description: `อู่ซ่อมรถ ${brand} ทุกรุ่น J SPEED SERVICE บึงกุ่ม ซ่อมเครื่องยนต์ เกียร์ ช่วงล่าง เบรค แอร์และระบบไฟฟ้า ตรวจเช็คด้วยคอมพิวเตอร์ รับประกันงานซ่อม โทร ${site.phone}`,
     body: `
 ${pageHead(brand, [['เกี่ยวกับเรา', paths.about], [brand]])}
 <section class="section">
@@ -839,6 +880,8 @@ cpSync(join(root, 'static'), out, { recursive: true });
 copyFileSync(join(root, 'public', 'favicon.ico'), join(out, 'favicon.ico'));
 const missingPhotos = photos.filter((p) => !existsSync(join(out, p.src)));
 if (missingPhotos.length) throw new Error(`Photos missing from static/:\n${missingPhotos.map((p) => p.src).join('\n')}`);
+const noWebp = photos.filter((p) => p.full && !(p.webp?.length && p.webp.every((x) => existsSync(join(out, x.src)))));
+if (noWebp.length) throw new Error(`Photos without WebP copies (run node scripts/make-webp.mjs):\n${noWebp.map((p) => p.full.src).join('\n')}`);
 // Only repair stories carry a real "last changed" date (their publish date); other pages
 // leave it out rather than claim they change on every build.
 const postDate = new Map(posts.map((p) => [p.path, p.date]));

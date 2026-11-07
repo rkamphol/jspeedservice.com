@@ -17,7 +17,21 @@
    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_engine-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_engine-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_engine-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_engine.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -37,7 +51,21 @@
    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_gear-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_gear-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_gear-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_repair_gear.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -57,7 +85,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_16-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_16-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_16-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_16.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -77,7 +119,21 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -97,7 +153,21 @@
    "src": "/wp-content/uploads/2018/09/S__22519876-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519876-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519876-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519876.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/",
@@ -117,7 +187,21 @@
    "src": "/wp-content/uploads/2018/03/Temp2-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/Temp2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/Temp2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/Temp2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -137,7 +221,21 @@
    "src": "/wp-content/uploads/2018/03/img_4108-2-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/img_4108-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/img_4108-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/img_4108-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -157,7 +255,21 @@
    "src": "/wp-content/uploads/2018/03/1-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -177,7 +289,21 @@
    "src": "/wp-content/uploads/2018/01/4-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -197,7 +323,21 @@
    "src": "/wp-content/uploads/2017/12/3-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/12/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -217,7 +357,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803082-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803082-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803082-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803082.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -237,7 +391,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803079-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803079-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803079-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803079.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -252,7 +420,14 @@
    "src": "/wp-content/uploads/2016/06/jspeed-mini-cooper-16.jpg",
    "w": 720,
    "h": 540
-  }
+  },
+  "desc": "รถ MINI Cooper หลายคันจอดรอซ่อมใต้หลังคาอู่ J SPEED SERVICE",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/06/jspeed-mini-cooper-16.webp",
+    "w": 720
+   }
+  ]
  },
  {
   "page": "/",
@@ -272,7 +447,18 @@
    "src": "/wp-content/uploads/2016/06/jspeed-mini-cooper-15-640w.png",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "Volkswagen Beetle สีแดงเปิดฝากระโปรงรอตรวจเช็คในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/06/jspeed-mini-cooper-15-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/06/jspeed-mini-cooper-15.webp",
+    "w": 896
+   }
+  ]
  },
  {
   "page": "/",
@@ -292,7 +478,22 @@
    "src": "/wp-content/uploads/2016/11/jspeed-service-mini-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "ช่างกำลังซ่อมห้องเครื่อง MINI ข้าง MINI Cooper สีน้ำเงิน",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/11/jspeed-service-mini-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/11/jspeed-service-mini-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/11/jspeed-service-mini-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -312,7 +513,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_5-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "ช่างถอดแผงประตูรถเพื่อซ่อมชุดกระจกไฟฟ้า",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_5.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -332,7 +548,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_7-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI Cooper S สีน้ำเงินและ MINI ลายแถบจอดในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_7-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_7-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_7.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -352,7 +583,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_10-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI สีขาวหลังคาดำกับ MINI อีกหลายคันในพื้นที่ซ่อม",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_10-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_10-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_10.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -372,7 +618,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_11-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "BMW ซีรีส์ 3 และ BMW Z4 ข้างลิฟต์ยกรถในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_11-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_11-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_11.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -392,7 +653,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_12-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI สีขาวและรถอีกหลายคันรอซ่อมในอู่ยามเย็น",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_12-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_12-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_12.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -412,7 +688,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_24-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "ช่างตรวจช่วงล่าง MINI ที่ยกขึ้นลิฟต์และถอดเครื่องออก",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_24-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_24-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_24.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -432,7 +723,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_28-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI Countryman และ MINI สีแดงในพื้นที่ซ่อม",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_28-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_28-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_28.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -452,7 +758,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_23-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "ช่างซ่อมเครื่อง MINI สีเทา ข้างลิฟต์ที่ยก MINI สีน้ำเงิน",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_23-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_23-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_23.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -472,7 +793,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_18-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI Countryman สีเทาและ MINI สีเขียวหน้าอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_18-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_18-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_18.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -492,7 +828,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_26-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI หลายสีจอดเรียงรอซ่อมในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_26-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_26-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_26.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -512,7 +863,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_14-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "ช่างซ่อมเครื่องยนต์ BMW E36 สีแดง",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_14-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_14-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_14.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -532,7 +898,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_22-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI บนลิฟต์ระหว่างยกเครื่องยนต์",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_22-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_22-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_22.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -552,7 +933,22 @@
    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_25-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI สีเงินเปิดฝากระโปรงในช่องซ่อม",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_25-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_25-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_mini_bmw_benz_25.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/",
@@ -567,7 +963,13 @@
    "src": "/wp-content/uploads/2016/02/voltronic_banner.jpg",
    "w": 270,
    "h": 434
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/voltronic_banner.webp",
+    "w": 270
+   }
+  ]
  },
  {
   "page": "/",
@@ -582,7 +984,13 @@
    "src": "/wp-content/uploads/2016/02/acdelco_banner.jpg",
    "w": 270,
    "h": 605
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/acdelco_banner.webp",
+    "w": 270
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -602,7 +1010,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -622,7 +1044,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -642,7 +1078,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_10-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_10-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_10-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_10.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -662,7 +1112,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_12-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_12-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_12-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_12.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -682,7 +1146,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_8-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_8-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_8-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_8.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -702,7 +1180,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_10-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_10-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_10-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_10.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -722,7 +1214,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -742,7 +1248,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_14-640w.jpg",
    "w": 640,
    "h": 359
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_14-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_14-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_14.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -762,7 +1282,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_8-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_8-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_8-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_8.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -782,7 +1316,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_11-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_11-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_11-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_11.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -802,7 +1350,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -822,7 +1384,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_9-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_9-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_9-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_9.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -842,7 +1418,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -862,7 +1452,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -882,7 +1486,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -902,7 +1520,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_7-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_7-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_7-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_7.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -922,7 +1554,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_9-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_9-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_9-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_9.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -942,7 +1588,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_11-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_11-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_11-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_11.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -962,7 +1622,21 @@
    "src": "/wp-content/uploads/2016/02/service_air_13-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_13-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_13-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/service_air_13.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -982,7 +1656,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -1002,7 +1690,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_5-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_5.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -1022,7 +1724,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -1042,7 +1758,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_7-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_7-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_7-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_7.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/",
@@ -1062,7 +1792,21 @@
    "src": "/wp-content/uploads/2016/02/car_suspension_8-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_8-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_8-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_suspension_8.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1082,7 +1826,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1102,7 +1860,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_8-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_8-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_8-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_8.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1122,7 +1894,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_14-640w.jpg",
    "w": 640,
    "h": 359
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_14-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_14-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_14.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1142,7 +1928,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_9-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_9-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_9-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_9.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1162,7 +1962,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_20-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_20-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_20-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_20.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1182,7 +1996,17 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_19-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_19-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_19.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1202,7 +2026,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_18-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_18-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_18-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_18.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1222,7 +2060,17 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_16-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_16-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_16.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1242,7 +2090,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_15-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_15-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_15-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_15.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1262,7 +2124,17 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_13-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_13-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_13.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1282,7 +2154,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_12-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_12-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_12-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_12.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1302,7 +2188,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_10-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_10-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_10-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_10.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1322,7 +2222,17 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_7-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_7-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_7.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1342,7 +2252,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1362,7 +2286,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_5-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_5.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1382,7 +2320,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1402,7 +2354,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -1422,7 +2388,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_gear_2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_gear_2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1442,7 +2422,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_12-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_12-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_12-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_12.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1462,7 +2456,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_10-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_10-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_10-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_10.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1482,7 +2490,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1502,7 +2524,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1522,7 +2558,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1542,7 +2592,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_7-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_7-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_7-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_7.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1562,7 +2626,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_8-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_8-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_8-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_8.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1582,7 +2660,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_9-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_9-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_9-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_9.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1602,7 +2694,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_11-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_11-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_11-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_11.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1622,7 +2728,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_13-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_13-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_13-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_13.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1642,7 +2762,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_14-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_14-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_14-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_14.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1662,7 +2796,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_15-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_15-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_15-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_15.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1682,7 +2830,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_16-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_16-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_16-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_16.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1702,7 +2864,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_17-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_17-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_17-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_17.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1722,7 +2898,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_18-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_18-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_18-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_18.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1742,7 +2932,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_20-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_20-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_20-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_20.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1762,7 +2966,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_21-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_21-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_21-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_21.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1782,7 +3000,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_22-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_22-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_22-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_22.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1802,7 +3034,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_24-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_24-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_24-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_24.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1822,7 +3068,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_28-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_28-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_28-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_28.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%99%e0%b8%95%e0%b9%8c/",
@@ -1842,7 +3102,21 @@
    "src": "/wp-content/uploads/2016/02/car_repair_engine_29-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_29-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_29-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/car_repair_engine_29.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1862,7 +3136,22 @@
    "src": "/wp-content/uploads/2011/07/jspeed_about_1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI ที่ถอดเครื่องยนต์ออกเพื่อยกเครื่อง",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2011/07/jspeed_about_1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2011/07/jspeed_about_1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2011/07/jspeed_about_1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1882,7 +3171,22 @@
    "src": "/wp-content/uploads/2011/07/jspeed_about_2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI สีเทาบนลิฟต์ยกรถในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2011/07/jspeed_about_2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2011/07/jspeed_about_2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2011/07/jspeed_about_2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1902,7 +3206,22 @@
    "src": "/wp-content/uploads/2016/03/jspeed_about_3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI สีขาวลายแถบและ MINI สีเหลืองในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1922,7 +3241,22 @@
    "src": "/wp-content/uploads/2016/02/jspeedservice_mini_bmw_benz_12-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI Convertible เปิดประทุนรอซ่อมในอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_mini_bmw_benz_12-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_mini_bmw_benz_12-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/02/jspeedservice_mini_bmw_benz_12.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1942,7 +3276,22 @@
    "src": "/wp-content/uploads/2016/03/jspeed_about_5-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "ช่างซ่อมเครื่อง Classic Mini สีขาว",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_5.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1962,7 +3311,22 @@
    "src": "/wp-content/uploads/2016/03/jspeed_about_6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "desc": "MINI สีเหลืองและ MINI สีฟ้าในพื้นที่ซ่อมของอู่",
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/03/jspeed_about_6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1977,7 +3341,13 @@
    "src": "/wp-content/uploads/2016/02/bmw.jpg",
    "w": 430,
    "h": 300
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/02/bmw.webp",
+    "w": 430
+   }
+  ]
  },
  {
   "page": "/%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a3%e0%b8%b2/",
@@ -1992,7 +3362,13 @@
    "src": "/wp-content/uploads/2011/07/mini-cooper.jpg",
    "w": 430,
    "h": 300
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2011/07/mini-cooper.webp",
+    "w": 430
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/j-speed-services/",
@@ -2013,7 +3389,17 @@
    "src": "/wp-content/uploads/2018/09/S__22519875-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519875-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519875.webp",
+    "w": 1080
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/j-speed-services/",
@@ -2034,7 +3420,21 @@
    "src": "/wp-content/uploads/2018/09/S__22519874-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519874-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519874-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519874.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/j-speed-services/",
@@ -2055,7 +3455,17 @@
    "src": "/wp-content/uploads/2018/09/S__22519877-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519877-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519877.webp",
+    "w": 800
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/j-speed-services/",
@@ -2076,7 +3486,21 @@
    "src": "/wp-content/uploads/2018/09/S__22519876-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519876-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519876-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/09/S__22519876.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99%e0%b8%82%e0%b8%b6%e0%b9%89%e0%b8%99/",
@@ -2097,7 +3521,21 @@
    "src": "/wp-content/uploads/2018/03/Temp2-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/Temp2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/Temp2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/Temp2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99%e0%b8%82%e0%b8%b6%e0%b9%89%e0%b8%99/",
@@ -2118,7 +3556,21 @@
    "src": "/wp-content/uploads/2018/03/Temp-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/Temp-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/Temp-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/Temp.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%84%e0%b8%a5%e0%b8%a1%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%81%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%b8%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4%e0%b9%80%e0%b8%ab%e0%b8%95%e0%b8%b8/",
@@ -2139,7 +3591,21 @@
    "src": "/wp-content/uploads/2018/03/img_4108-2-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/img_4108-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/img_4108-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/img_4108-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%84%e0%b8%a5%e0%b8%a1%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%81%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%b8%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4%e0%b9%80%e0%b8%ab%e0%b8%95%e0%b8%b8/",
@@ -2160,7 +3626,21 @@
    "src": "/wp-content/uploads/2018/03/img_4109-1-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/img_4109-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/img_4109-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/img_4109-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%a3%e0%b9%88%e0%b8%87%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%ad%e0%b8%ad%e0%b8%81/",
@@ -2181,7 +3661,21 @@
    "src": "/wp-content/uploads/2018/03/1-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%a3%e0%b9%88%e0%b8%87%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%ad%e0%b8%ad%e0%b8%81/",
@@ -2202,7 +3696,21 @@
    "src": "/wp-content/uploads/2018/03/2-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/03/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/03/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/",
@@ -2223,7 +3731,21 @@
    "src": "/wp-content/uploads/2018/01/4-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/",
@@ -2244,7 +3766,21 @@
    "src": "/wp-content/uploads/2018/01/1-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/",
@@ -2265,7 +3801,21 @@
    "src": "/wp-content/uploads/2018/01/6-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/",
@@ -2286,7 +3836,21 @@
    "src": "/wp-content/uploads/2018/01/5-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/5.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/",
@@ -2307,7 +3871,21 @@
    "src": "/wp-content/uploads/2018/01/3-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%aa%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%a3%e0%b8%96/",
@@ -2328,7 +3906,21 @@
    "src": "/wp-content/uploads/2018/01/2-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2018/01/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2018/01/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini-cooper-r56/",
@@ -2349,7 +3941,21 @@
    "src": "/wp-content/uploads/2017/12/3-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/12/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini-cooper-r56/",
@@ -2370,7 +3976,21 @@
    "src": "/wp-content/uploads/2017/12/5-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/12/5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/5.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini-cooper-r56/",
@@ -2391,7 +4011,21 @@
    "src": "/wp-content/uploads/2017/12/4-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/12/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini-cooper-r56/",
@@ -2412,7 +4046,21 @@
    "src": "/wp-content/uploads/2017/12/2-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/12/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/2.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini-cooper-r56/",
@@ -2433,7 +4081,21 @@
    "src": "/wp-content/uploads/2017/12/1-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/12/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/12/1.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%9b%e0%b8%b1%e0%b8%8d%e0%b8%ab%e0%b8%b2%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -2454,7 +4116,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803082-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803082-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803082-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803082.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%9b%e0%b8%b1%e0%b8%8d%e0%b8%ab%e0%b8%b2%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -2475,7 +4151,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803083-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803083-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803083-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803083.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%9b%e0%b8%b1%e0%b8%8d%e0%b8%ab%e0%b8%b2%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -2496,7 +4186,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803081-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803081-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803081-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803081.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -2517,7 +4221,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803079-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803079-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803079-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803079.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -2538,7 +4256,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803076-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803076-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803076-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803076.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -2559,7 +4291,21 @@
    "src": "/wp-content/uploads/2017/11/S__28803075-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803075-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803075-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28803075.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2580,7 +4326,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524563-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524563-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524563-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524563.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2601,7 +4361,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524566-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524566-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524566-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524566.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2622,7 +4396,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524565-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524565-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524565-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524565.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2643,7 +4431,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524564-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524564-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524564-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524564.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/bmw-serie-6-%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a5%e0%b8%b7%e0%b9%88%e0%b8%99/",
@@ -2664,7 +4466,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524558-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524558-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524558-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524558.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/bmw-serie-6-%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a5%e0%b8%b7%e0%b9%88%e0%b8%99/",
@@ -2685,7 +4501,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524559-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524559-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524559-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524559.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/bmw-serie-6-%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a5%e0%b8%b7%e0%b9%88%e0%b8%99/",
@@ -2706,7 +4536,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524562-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524562-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524562-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524562.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/bmw-serie-6-%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a5%e0%b8%b7%e0%b9%88%e0%b8%99/",
@@ -2727,7 +4571,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524561-640w.jpg",
    "w": 640,
    "h": 479
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524561-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524561-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524561.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/bmw-serie-6-%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a5%e0%b8%b7%e0%b9%88%e0%b8%99/",
@@ -2748,7 +4606,21 @@
    "src": "/wp-content/uploads/2017/11/S__28524560-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524560-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524560-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/S__28524560.webp",
+    "w": 1108
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%80%e0%b8%9a%e0%b8%b7%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b8%95%e0%b9%89%e0%b8%99-mini-countryman-r60/",
@@ -2769,7 +4641,21 @@
    "src": "/wp-content/uploads/2017/11/1-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/1-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/1-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/1-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%80%e0%b8%9a%e0%b8%b7%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b8%95%e0%b9%89%e0%b8%99-mini-countryman-r60/",
@@ -2790,7 +4676,21 @@
    "src": "/wp-content/uploads/2017/11/3-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/3-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/3-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/3-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%80%e0%b8%9a%e0%b8%b7%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b8%95%e0%b9%89%e0%b8%99-mini-countryman-r60/",
@@ -2811,7 +4711,21 @@
    "src": "/wp-content/uploads/2017/11/2-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/2-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/2-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/2-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r-58-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -2832,7 +4746,21 @@
    "src": "/wp-content/uploads/2017/11/1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r-58-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -2853,7 +4781,17 @@
    "src": "/wp-content/uploads/2017/11/3-1-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/3-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/3-1.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r-58-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -2874,7 +4812,21 @@
    "src": "/wp-content/uploads/2017/11/2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/11/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/11/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%ad%e0%b8%a2%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2895,7 +4847,21 @@
    "src": "/wp-content/uploads/2017/09/4-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/4-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/4-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/4-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%ad%e0%b8%a2%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2916,7 +4882,21 @@
    "src": "/wp-content/uploads/2017/09/5-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/5-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/5-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/5-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%ad%e0%b8%a2%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2937,7 +4917,21 @@
    "src": "/wp-content/uploads/2017/09/3-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/3-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/3-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/3-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%ad%e0%b8%a2%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2958,7 +4952,21 @@
    "src": "/wp-content/uploads/2017/09/2-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/2-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/2-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/2-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%ad%e0%b8%a2%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -2979,7 +4987,21 @@
    "src": "/wp-content/uploads/2017/09/1-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/1-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/1-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/1-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-car-service/",
@@ -3000,7 +5022,21 @@
    "src": "/wp-content/uploads/2017/09/2-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/2-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/2-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/2-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-car-service/",
@@ -3021,7 +5057,21 @@
    "src": "/wp-content/uploads/2017/09/1-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/1-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/1-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/1-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-car-service/",
@@ -3042,7 +5092,21 @@
    "src": "/wp-content/uploads/2017/09/3-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/3-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/3-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/3-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-car-service/",
@@ -3063,7 +5127,21 @@
    "src": "/wp-content/uploads/2017/09/4-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/4-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/4-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/4-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-car-service/",
@@ -3084,7 +5162,17 @@
    "src": "/wp-content/uploads/2017/09/5-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/5.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -3105,7 +5193,21 @@
    "src": "/wp-content/uploads/2017/09/2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -3126,7 +5228,21 @@
    "src": "/wp-content/uploads/2017/09/1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -3147,7 +5263,21 @@
    "src": "/wp-content/uploads/2017/09/3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -3168,7 +5298,21 @@
    "src": "/wp-content/uploads/2017/09/4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/09/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/09/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%ab%e0%b8%a5%e0%b9%88/",
@@ -3189,7 +5333,21 @@
    "src": "/wp-content/uploads/2017/07/S__24961234-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961234-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961234-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961234.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%ab%e0%b8%a5%e0%b9%88/",
@@ -3210,7 +5368,17 @@
    "src": "/wp-content/uploads/2017/07/S__24961232-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961232-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961232.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%ab%e0%b8%a5%e0%b9%88/",
@@ -3231,7 +5399,21 @@
    "src": "/wp-content/uploads/2017/07/S__24961237-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961237-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961237-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961237.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%ab%e0%b8%a5%e0%b9%88/",
@@ -3252,7 +5434,21 @@
    "src": "/wp-content/uploads/2017/07/S__24961236-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961236-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961236-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961236.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%ab%e0%b8%a5%e0%b9%88/",
@@ -3273,7 +5469,21 @@
    "src": "/wp-content/uploads/2017/07/S__24961235-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961235-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961235-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961235.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%ab%e0%b8%a5%e0%b9%88/",
@@ -3294,7 +5504,21 @@
    "src": "/wp-content/uploads/2017/07/S__24961233-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961233-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961233-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24961233.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-f56-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%9c%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%9a%e0%b8%a3%e0%b8%84/",
@@ -3315,7 +5539,21 @@
    "src": "/wp-content/uploads/2017/07/S__24772611-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772611-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772611-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772611.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-f56-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%9c%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%9a%e0%b8%a3%e0%b8%84/",
@@ -3336,7 +5574,21 @@
    "src": "/wp-content/uploads/2017/07/S__24772613-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772613-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772613-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772613.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-f56-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%9c%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%9a%e0%b8%a3%e0%b8%84/",
@@ -3357,7 +5609,21 @@
    "src": "/wp-content/uploads/2017/07/S__24772612-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772612-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772612-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24772612.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%8b%e0%b8%b5%e0%b8%a5%e0%b8%95%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -3378,7 +5644,21 @@
    "src": "/wp-content/uploads/2017/07/S__24518665-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24518665-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24518665-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24518665.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%8b%e0%b8%b5%e0%b8%a5%e0%b8%95%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -3399,7 +5679,21 @@
    "src": "/wp-content/uploads/2017/07/S__24518666-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/07/S__24518666-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24518666-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/07/S__24518666.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-lci-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -3420,7 +5714,21 @@
    "src": "/wp-content/uploads/2017/06/6-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/6-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/6.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-lci-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -3441,7 +5749,21 @@
    "src": "/wp-content/uploads/2017/06/1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-lci-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -3462,7 +5784,21 @@
    "src": "/wp-content/uploads/2017/06/5-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/5-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/5.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-lci-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -3483,7 +5819,21 @@
    "src": "/wp-content/uploads/2017/06/4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-lci-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -3504,7 +5854,21 @@
    "src": "/wp-content/uploads/2017/06/3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r56-lci-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c/",
@@ -3525,7 +5889,21 @@
    "src": "/wp-content/uploads/2017/06/2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/air-compressor-%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -3546,7 +5924,21 @@
    "src": "/wp-content/uploads/2017/06/S__24068101-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068101-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068101-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068101.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/air-compressor-%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -3567,7 +5959,17 @@
    "src": "/wp-content/uploads/2017/06/S__24068106-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068106-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068106.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/air-compressor-%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -3588,7 +5990,17 @@
    "src": "/wp-content/uploads/2017/06/S__24068105-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068105-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068105.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/air-compressor-%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -3609,7 +6021,21 @@
    "src": "/wp-content/uploads/2017/06/S__24068104-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068104-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068104-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068104.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/air-compressor-%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -3630,7 +6056,17 @@
    "src": "/wp-content/uploads/2017/06/S__24068103-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068103-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068103.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/air-compressor-%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -3651,7 +6087,17 @@
    "src": "/wp-content/uploads/2017/06/S__24068102-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068102-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__24068102.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3672,7 +6118,21 @@
    "src": "/wp-content/uploads/2017/06/S__23560206-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560206-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560206-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560206.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3693,7 +6153,21 @@
    "src": "/wp-content/uploads/2017/06/S__23560207-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560207-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560207-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560207.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3714,7 +6188,17 @@
    "src": "/wp-content/uploads/2017/06/S__23560205-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560205-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560205.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3735,7 +6219,21 @@
    "src": "/wp-content/uploads/2017/06/S__23560204-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560204-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560204-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560204.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3756,7 +6254,21 @@
    "src": "/wp-content/uploads/2017/06/S__23560203-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560203-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560203-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560203.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3777,7 +6289,21 @@
    "src": "/wp-content/uploads/2017/06/S__23560202-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560202-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560202-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560202.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3798,7 +6324,17 @@
    "src": "/wp-content/uploads/2017/06/S__23560201-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560201-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560201.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%ad%e0%b8%b7%e0%b9%88%e0%b8%99%e0%b9%86/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c/",
@@ -3819,7 +6355,21 @@
    "src": "/wp-content/uploads/2017/06/S__23560200-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560200-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560200-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/06/S__23560200.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94-%e0%b9%81%e0%b8%9a%e0%b8%95%e0%b9%80%e0%b8%95%e0%b8%ad%e0%b8%a3%e0%b8%b5%e0%b9%88%e0%b8%ab/",
@@ -3840,7 +6390,21 @@
    "src": "/wp-content/uploads/2017/05/1-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/1-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/1-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/1-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94-%e0%b9%81%e0%b8%9a%e0%b8%95%e0%b9%80%e0%b8%95%e0%b8%ad%e0%b8%a3%e0%b8%b5%e0%b9%88%e0%b8%ab/",
@@ -3861,7 +6425,21 @@
    "src": "/wp-content/uploads/2017/05/5-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/5-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/5-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/5-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94-%e0%b9%81%e0%b8%9a%e0%b8%95%e0%b9%80%e0%b8%95%e0%b8%ad%e0%b8%a3%e0%b8%b5%e0%b9%88%e0%b8%ab/",
@@ -3882,7 +6460,21 @@
    "src": "/wp-content/uploads/2017/05/2-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/2-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/2-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/2-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94-%e0%b9%81%e0%b8%9a%e0%b8%95%e0%b9%80%e0%b8%95%e0%b8%ad%e0%b8%a3%e0%b8%b5%e0%b9%88%e0%b8%ab/",
@@ -3903,7 +6495,21 @@
    "src": "/wp-content/uploads/2017/05/3-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/3-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/3-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/3-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94-%e0%b9%81%e0%b8%9a%e0%b8%95%e0%b9%80%e0%b8%95%e0%b8%ad%e0%b8%a3%e0%b8%b5%e0%b9%88%e0%b8%ab/",
@@ -3924,7 +6530,21 @@
    "src": "/wp-content/uploads/2017/05/4-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/4-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/4-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/4-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -3945,7 +6565,21 @@
    "src": "/wp-content/uploads/2017/05/1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -3966,7 +6600,17 @@
    "src": "/wp-content/uploads/2017/05/6-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/6.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -3987,7 +6631,17 @@
    "src": "/wp-content/uploads/2017/05/5-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/5.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -4008,7 +6662,21 @@
    "src": "/wp-content/uploads/2017/05/4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -4029,7 +6697,21 @@
    "src": "/wp-content/uploads/2017/05/3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -4050,7 +6732,21 @@
    "src": "/wp-content/uploads/2017/05/2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-country-r60-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -4071,7 +6767,21 @@
    "src": "/wp-content/uploads/2017/05/S__23003144-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003144-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003144-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003144.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-country-r60-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -4092,7 +6802,21 @@
    "src": "/wp-content/uploads/2017/05/S__23003146-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003146-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003146-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003146.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-country-r60-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -4113,7 +6837,21 @@
    "src": "/wp-content/uploads/2017/05/S__23003145-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003145-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003145-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__23003145.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r50-%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -4134,7 +6872,21 @@
    "src": "/wp-content/uploads/2017/05/S__22855682-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/S__22855682-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__22855682-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__22855682.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r50-%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -4155,7 +6907,17 @@
    "src": "/wp-content/uploads/2017/05/S__22855683-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/05/S__22855683-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/05/S__22855683.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4176,7 +6938,21 @@
    "src": "/wp-content/uploads/2017/04/S__22331394-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331394-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331394-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331394.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4197,7 +6973,21 @@
    "src": "/wp-content/uploads/2017/04/S__22331395-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331395-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331395-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331395.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4218,7 +7008,17 @@
    "src": "/wp-content/uploads/2017/04/S__22331397-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331397-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331397.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4239,7 +7039,21 @@
    "src": "/wp-content/uploads/2017/04/S__22331396-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331396-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331396-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/04/S__22331396.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4260,7 +7074,21 @@
    "src": "/wp-content/uploads/2017/03/S__22200329-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200329-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200329-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200329.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4281,7 +7109,17 @@
    "src": "/wp-content/uploads/2017/03/S__22200338-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200338-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200338.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4302,7 +7140,17 @@
    "src": "/wp-content/uploads/2017/03/S__22200337-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200337-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200337.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4323,7 +7171,17 @@
    "src": "/wp-content/uploads/2017/03/S__22200335-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200335-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200335.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4344,7 +7202,17 @@
    "src": "/wp-content/uploads/2017/03/S__22200334-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200334-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200334.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4365,7 +7233,17 @@
    "src": "/wp-content/uploads/2017/03/S__22200333-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200333-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200333.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4386,7 +7264,21 @@
    "src": "/wp-content/uploads/2017/03/S__22200332-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200332-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200332-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200332.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4407,7 +7299,17 @@
    "src": "/wp-content/uploads/2017/03/S__22200331-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200331-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200331.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%96%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%80%e0%b8%84/",
@@ -4428,7 +7330,21 @@
    "src": "/wp-content/uploads/2017/03/S__22200330-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200330-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200330-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22200330.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%81%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-mini/",
@@ -4449,7 +7365,21 @@
    "src": "/wp-content/uploads/2017/03/4-1-640w.jpg",
    "w": 640,
    "h": 340
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/4-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/4-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/4-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%81%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-mini/",
@@ -4470,7 +7400,21 @@
    "src": "/wp-content/uploads/2017/03/1-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/1-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/1-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/1-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%81%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-mini/",
@@ -4491,7 +7435,21 @@
    "src": "/wp-content/uploads/2017/03/3-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/3-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/3-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/3-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%81%e0%b8%81%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-mini/",
@@ -4512,7 +7470,21 @@
    "src": "/wp-content/uploads/2017/03/2-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/2-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/2-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/2-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r56-%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4533,7 +7505,21 @@
    "src": "/wp-content/uploads/2017/03/S__22061081-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061081-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061081-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061081.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r56-%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4554,7 +7540,21 @@
    "src": "/wp-content/uploads/2017/03/S__22061079-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061079-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061079-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061079.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r56-%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4575,7 +7575,21 @@
    "src": "/wp-content/uploads/2017/03/S__22061078-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061078-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061078-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061078.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r56-%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%a2%e0%b9%87%e0%b8%99/",
@@ -4596,7 +7610,17 @@
    "src": "/wp-content/uploads/2017/03/S__22061077-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061077-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__22061077.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r59-%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94/",
@@ -4617,7 +7641,21 @@
    "src": "/wp-content/uploads/2017/03/S__21708803-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708803-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708803-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708803.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r59-%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94/",
@@ -4638,7 +7676,21 @@
    "src": "/wp-content/uploads/2017/03/S__21708805-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708805-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708805-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708805.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r59-%e0%b8%aa%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b8%b4%e0%b8%94/",
@@ -4659,7 +7711,21 @@
    "src": "/wp-content/uploads/2017/03/S__21708804-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708804-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708804-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21708804.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%a2%e0%b8%b0%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b/",
@@ -4680,7 +7746,21 @@
    "src": "/wp-content/uploads/2017/03/S__21266446-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__21266446-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21266446-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21266446.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%a3%e0%b8%b0%e0%b8%a2%e0%b8%b0%e0%b8%97%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b9%84%e0%b8%9b/",
@@ -4701,7 +7781,21 @@
    "src": "/wp-content/uploads/2017/03/S__21610544-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/S__21610544-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21610544-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/S__21610544.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%84%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%97%e0%b9%88%e0%b8%ad%e0%b9%84%e0%b8%ad%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2/",
@@ -4722,7 +7816,21 @@
    "src": "/wp-content/uploads/2017/03/3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%84%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%97%e0%b9%88%e0%b8%ad%e0%b9%84%e0%b8%ad%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2/",
@@ -4743,7 +7851,17 @@
    "src": "/wp-content/uploads/2017/03/4-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/4.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%84%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%97%e0%b9%88%e0%b8%ad%e0%b9%84%e0%b8%ad%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2/",
@@ -4764,7 +7882,21 @@
    "src": "/wp-content/uploads/2017/03/2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%84%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%97%e0%b9%88%e0%b8%ad%e0%b9%84%e0%b8%ad%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2/",
@@ -4785,7 +7917,21 @@
    "src": "/wp-content/uploads/2017/03/1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/03/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/03/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%ad%e0%b8%b9%e0%b9%88%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%96-mini-bmw-%e0%b8%9e%e0%b8%a7%e0%b8%87%e0%b8%a1%e0%b8%b2%e0%b8%a5%e0%b8%b1%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%81/",
@@ -4806,7 +7952,21 @@
    "src": "/wp-content/uploads/2017/02/1-3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/1-3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%ad%e0%b8%b9%e0%b9%88%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%96-mini-bmw-%e0%b8%9e%e0%b8%a7%e0%b8%87%e0%b8%a1%e0%b8%b2%e0%b8%a5%e0%b8%b1%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%81/",
@@ -4827,7 +7987,21 @@
    "src": "/wp-content/uploads/2017/02/2-3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/2-3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2-3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2-3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%ad%e0%b8%b9%e0%b9%88%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%96-mini-bmw-%e0%b8%9e%e0%b8%a7%e0%b8%87%e0%b8%a1%e0%b8%b2%e0%b8%a5%e0%b8%b1%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%81/",
@@ -4848,7 +8022,21 @@
    "src": "/wp-content/uploads/2017/02/3-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/3-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/3-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/3-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%ad%e0%b8%b9%e0%b9%88%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%96-mini-bmw-%e0%b8%9e%e0%b8%a7%e0%b8%87%e0%b8%a1%e0%b8%b2%e0%b8%a5%e0%b8%b1%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%81/",
@@ -4864,7 +8052,13 @@
    "src": "/wp-content/uploads/2017/02/4-2.jpg",
    "w": 280,
    "h": 210
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/4-2.webp",
+    "w": 280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%a2%e0%b8%b2%e0%b8%87%e0%b9%81%e0%b8%97%e0%b9%88%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -4885,7 +8079,21 @@
    "src": "/wp-content/uploads/2017/02/1-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/1-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%a2%e0%b8%b2%e0%b8%87%e0%b9%81%e0%b8%97%e0%b9%88%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -4906,7 +8114,21 @@
    "src": "/wp-content/uploads/2017/02/2-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/2-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b8%8b%e0%b8%b6%e0%b8%a1/",
@@ -4927,7 +8149,21 @@
    "src": "/wp-content/uploads/2017/02/1-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/1-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b8%8b%e0%b8%b6%e0%b8%a1/",
@@ -4948,7 +8184,21 @@
    "src": "/wp-content/uploads/2017/02/4-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/4-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/4-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/4-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b8%8b%e0%b8%b6%e0%b8%a1/",
@@ -4969,7 +8219,21 @@
    "src": "/wp-content/uploads/2017/02/3-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/3-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/3-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/3-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7%e0%b8%8b%e0%b8%b6%e0%b8%a1/",
@@ -4990,7 +8254,21 @@
    "src": "/wp-content/uploads/2017/02/2-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/2-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5011,7 +8289,21 @@
    "src": "/wp-content/uploads/2017/02/1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5032,7 +8324,17 @@
    "src": "/wp-content/uploads/2017/02/2-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/2.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5053,7 +8355,17 @@
    "src": "/wp-content/uploads/2017/02/6-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/6-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/6.webp",
+    "w": 918
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5074,7 +8386,17 @@
    "src": "/wp-content/uploads/2017/02/5-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/5-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/5.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5095,7 +8417,21 @@
    "src": "/wp-content/uploads/2017/02/4-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/4-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/4-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/4.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b9%8c%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5116,7 +8452,17 @@
    "src": "/wp-content/uploads/2017/02/3-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/3.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5137,7 +8483,21 @@
    "src": "/wp-content/uploads/2017/02/S__20774917-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774917-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774917-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774917.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5158,7 +8518,21 @@
    "src": "/wp-content/uploads/2017/02/S__20774922-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774922-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774922-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774922.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5179,7 +8553,21 @@
    "src": "/wp-content/uploads/2017/02/S__20774921-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774921-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774921-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774921.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5200,7 +8588,21 @@
    "src": "/wp-content/uploads/2017/02/S__20774920-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774920-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774920-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774920.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5221,7 +8623,17 @@
    "src": "/wp-content/uploads/2017/02/S__20774919-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774919-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774919.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4/",
@@ -5242,7 +8654,21 @@
    "src": "/wp-content/uploads/2017/02/S__20774918-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774918-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774918-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/02/S__20774918.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-mini-r58-%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99/",
@@ -5263,7 +8689,17 @@
    "src": "/wp-content/uploads/2017/01/S__20709380-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20709380-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20709380.webp",
+    "w": 1024
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-mini-r58-%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99/",
@@ -5284,7 +8720,17 @@
    "src": "/wp-content/uploads/2017/01/S__20709381-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20709381-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20709381.webp",
+    "w": 1024
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-cooper-r53-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%8b%e0%b8%b6%e0%b8%a1-%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -5305,7 +8751,17 @@
    "src": "/wp-content/uploads/2017/01/S__20332556-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332556-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332556.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-cooper-r53-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%8b%e0%b8%b6%e0%b8%a1-%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -5326,7 +8782,21 @@
    "src": "/wp-content/uploads/2017/01/S__20332557-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332557-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332557-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332557.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-cooper-r53-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%8b%e0%b8%b6%e0%b8%a1-%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -5347,7 +8817,21 @@
    "src": "/wp-content/uploads/2017/01/S__20332558-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332558-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332558-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332558.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-cooper-r53-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%8b%e0%b8%b6%e0%b8%a1-%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -5363,7 +8847,13 @@
    "src": "/wp-content/uploads/2017/01/S__20332559.jpg",
    "w": 443,
    "h": 332
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332559.webp",
+    "w": 443
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-cooper-r53-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%8b%e0%b8%b6%e0%b8%a1-%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%a7/",
@@ -5379,7 +8869,13 @@
    "src": "/wp-content/uploads/2017/01/S__20332560.jpg",
    "w": 225,
    "h": 300
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/S__20332560.webp",
+    "w": 225
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r60-%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -5400,7 +8896,21 @@
    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r60-%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -5421,7 +8931,21 @@
    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r60-%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%94%e0%b8%b1%e0%b8%87/",
@@ -5442,7 +8966,17 @@
    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-3-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/Mini-cooper-R60-Country-Man-โทรนัดคิวเข้าเช็คเรื่องเสียงดังเวลาเลี้ยว-3.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r50-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -5463,7 +8997,21 @@
    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r50-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -5484,7 +9032,21 @@
    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_2-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_2-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_2.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r50-%e0%b8%95%e0%b8%a3%e0%b8%a7%e0%b8%88%e0%b9%80%e0%b8%8a%e0%b9%87%e0%b8%84%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%87/",
@@ -5505,7 +9067,21 @@
    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_3-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_3-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_3-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2017/01/mini-cooper-R50-นัดคิวตรวจเช็คช่วงล่างทั้งคัน_3.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r56/",
@@ -5526,7 +9102,21 @@
    "src": "/wp-content/uploads/2016/12/S__19914841-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/S__19914841-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/S__19914841-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/S__19914841.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r56-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b9%80%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87/",
@@ -5547,7 +9137,21 @@
    "src": "/wp-content/uploads/2016/12/Mini-R56-น้ำเข้าเครื่อง-ซ่อมโดยการเปิดฝาสูบ-overhaul-เครื่องใหม่ทั้งหมดคับ-min-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/Mini-R56-น้ำเข้าเครื่อง-ซ่อมโดยการเปิดฝาสูบ-overhaul-เครื่องใหม่ทั้งหมดคับ-min-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/Mini-R56-น้ำเข้าเครื่อง-ซ่อมโดยการเปิดฝาสูบ-overhaul-เครื่องใหม่ทั้งหมดคับ-min-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/Mini-R56-น้ำเข้าเครื่อง-ซ่อมโดยการเปิดฝาสูบ-overhaul-เครื่องใหม่ทั้งหมดคับ-min.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%b4-r50-%e0%b8%9e%e0%b8%a7%e0%b8%87%e0%b8%a1%e0%b8%b2%e0%b8%a5%e0%b8%b1%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%81/",
@@ -5568,7 +9172,21 @@
    "src": "/wp-content/uploads/2016/12/R50-พวงมาลัยหนัก-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/R50-พวงมาลัยหนัก-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R50-พวงมาลัยหนัก-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R50-พวงมาลัยหนัก.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r60-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%a1%e0%b8%b9%e0%b9%88%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%ab%e0%b8%99%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7/",
@@ -5589,7 +9207,21 @@
    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-0-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-0-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-0-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-0.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r60-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%a1%e0%b8%b9%e0%b9%88%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%ab%e0%b8%99%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7/",
@@ -5610,7 +9242,21 @@
    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-1-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-1-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-1-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-1.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/r60-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%a1%e0%b8%b9%e0%b9%88%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%ab%e0%b8%99%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7/",
@@ -5631,7 +9277,17 @@
    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-2-640w.jpg",
    "w": 640,
    "h": 853
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-2-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/R60-มูเล่หน้าเครื่อง-2.webp",
+    "w": 960
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/mini-r60-%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%ab%e0%b8%b2%e0%b8%a2/",
@@ -5652,7 +9308,21 @@
    "src": "/wp-content/uploads/2016/12/MINI-R60-น้ำมันเครื่องหาย-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/MINI-R60-น้ำมันเครื่องหาย-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/MINI-R60-น้ำมันเครื่องหาย-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/MINI-R60-น้ำมันเครื่องหาย.webp",
+    "w": 1280
+   }
+  ]
  },
  {
   "page": "/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1-mini/overhaul-%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-mini-r60/",
@@ -5673,6 +9343,20 @@
    "src": "/wp-content/uploads/2016/12/MINI-Cooper-R60-engine-oil-leakage-640w.jpg",
    "w": 640,
    "h": 480
-  }
+  },
+  "webp": [
+   {
+    "src": "/wp-content/uploads/2016/12/MINI-Cooper-R60-engine-oil-leakage-640w.webp",
+    "w": 640
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/MINI-Cooper-R60-engine-oil-leakage-960w.webp",
+    "w": 960
+   },
+   {
+    "src": "/wp-content/uploads/2016/12/MINI-Cooper-R60-engine-oil-leakage.webp",
+    "w": 1280
+   }
+  ]
  }
 ]

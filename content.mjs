@@ -7,8 +7,12 @@ export const site = {
   origin: 'https://www.jspeedservice.com',
   name: 'J SPEED SERVICE',
   title: 'อู่มินิ อู่ซ่อมรถ มินิ MINI BMW – J SPEED SERVICE 08-333-333-22',
+  // What Google shows for the home page; other pages end their title with `titleTail`
+  // (or just the name when the title is already long).
+  homeTitle: 'อู่มินิ อู่ซ่อม MINI Cooper & BMW บึงกุ่ม | J SPEED SERVICE',
+  titleTail: ' | อู่ซ่อมมินิ J SPEED SERVICE',
   description:
-    'ซ่อมรถมินิ MINI รับประกันงานซ่อม ด้วยเทคโนโลยีทันสมัยโดยทีมงานมืออาชีพ ซ่อมเครื่องยนต์ เกียร์ ช่วงล่าง เบรค แอร์ เปลี่ยนถ่ายน้ำมันเครื่อง',
+    'อู่ซ่อม MINI Cooper และ BMW ทุกรุ่น ซอยคลองลำเจียก 41 บึงกุ่ม ใกล้เลียบด่วนรามอินทรา ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม รับประกันงาน โทร 08-333-333-22',
   phone: '08-333-333-22',
   tel: '0833333322',
   facebook: 'http://www.facebook.com/jspeedservice',

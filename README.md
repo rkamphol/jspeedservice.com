@@ -24,5 +24,5 @@ the links stay at the site root.
 - `build.mjs` – page templates; fails if any old address is missing
 - `public/` – styles, script, logo and icons
 - `static/` – photos at their old `/wp-content/uploads/...` addresses: the full-size originals plus 640 px copies, made by `node scripts/import-originals.mjs <backup/public_html>` from a backup of the old site
-- `photos.json` – where each photo appears
+- `photos.json` – where each photo appears; `desc` is its alt text where the post title doesn't describe it, and `webp` lists the WebP sizes made by `node scripts/make-webp.mjs` (needs `cwebp`; run it after adding photos)
 - `old-addresses.txt` – every page address the old WordPress site had (made by `node scripts/collect-old-addresses.mjs <backup/public_html>`); each one without a new page gets a small forwarding page to the closest new page (rules in `forwardTarget` in `build.mjs`)

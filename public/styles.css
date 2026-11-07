@@ -547,8 +547,8 @@ a.contact-card--accent:hover { color: #fff; box-shadow: var(--shadow-red); }
 .social { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; border: 1px solid rgb(255 255 255 / .15); color: #fff; transition: background-color var(--dur-base), border-color var(--dur-base), transform var(--dur-base) var(--ease-out); }
 .social .ico { width: 20px; height: 20px; }
 .social:hover { background: var(--red); border-color: var(--red); color: #fff; transform: translateY(-3px); }
-.copyright { font-size: .78rem; color: #7d7d86; padding-top: var(--s-4); margin: 0; text-align: center; }
-.copyright a { color: #7d7d86; }
+.copyright { font-size: .78rem; color: #8f8f99; padding-top: var(--s-4); margin: 0; text-align: center; }
+.copyright a { color: #8f8f99; }
 
 .totop {
   position: fixed; right: 24px; bottom: 24px; z-index: 40; display: grid; place-items: center;
