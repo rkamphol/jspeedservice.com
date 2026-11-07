@@ -497,6 +497,11 @@ a.infocard:hover .infocard__ico { transform: translateY(-50%) rotate(-8deg) scal
 .brandcard__img { width: 120px; height: auto; flex: none; border-radius: var(--r-sm); }
 .brandcard__badge { display: grid; place-items: center; width: 84px; height: 84px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #3a3a40, #0e0e10); color: #fff; font-family: var(--font-display); font-weight: 900; letter-spacing: .08em; border: 4px solid var(--red); flex: none; }
 
+/* Title and Maps button on one line, the address under the title (also on phones, above the button). */
+.mapsec__head { display: grid; grid-template-columns: 1fr auto; gap: var(--s-2) var(--s-7); }
+.mapsec__head .btn { grid-column: 2; grid-row: 1; }
+.head .mapsec__addr { grid-column: 1 / -1; display: flex; gap: var(--s-2); align-items: flex-start; }
+.head .mapsec__addr .ico { color: var(--red); flex: none; margin-top: 4px; }
 .contact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-4); }
 .contact-card {
   display: flex; gap: var(--s-4); align-items: flex-start; padding: var(--s-5); border-radius: var(--r-md);
@@ -629,6 +634,8 @@ a.contact-card--accent:hover { color: #fff; box-shadow: var(--shadow-red); }
 
 /* ---------- phone ---------- */
 @media (max-width: 600px) {
+  .mapsec__head { grid-template-columns: 1fr; }
+  .mapsec__head .btn { grid-column: 1; grid-row: 3; justify-self: start; margin-top: var(--s-2); }
   body { font-size: .95rem; }
   .topbar__in { justify-content: center; }
   .topbar__hours { display: none !important; }

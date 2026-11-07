@@ -13,6 +13,8 @@ export const site = {
   tel: '0833333322',
   facebook: 'http://www.facebook.com/jspeedservice',
   hours: { days: 'ทุกวันจันทร์ - เสาร์', time: 'เปิดให้บริการตั้งแต่เวลา 8:30 - 18:00 น.' },
+  // Must match the Google Business Profile word for word (local search compares them).
+  address: { street: 'ซอยคลองลำเจียก 41', area: 'แขวงนวมินทร์ เขตบึงกุ่ม', city: 'กรุงเทพมหานคร', postcode: '10230' },
   mapQuery: 'J Speed Service อู่ซ่อมมินิ กรุงเทพ',
   // Google tags, loaded only on the live domain (not locally or on the github.io preview).
   analytics: { ga4: 'G-DKCWG9RL8H', ads: 'AW-1002081090', host: 'www.jspeedservice.com' },

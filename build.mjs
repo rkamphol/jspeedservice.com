@@ -25,6 +25,7 @@ const withBase = (html) =>
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const fsPath = (p) => decodeURIComponent(p);
+const addressText = `${site.address.street} ${site.address.area} ${site.address.city} ${site.address.postcode}`;
 
 // ---------- shared pieces ----------
 
@@ -141,6 +142,7 @@ function footer() {
         <div>
           <h2 class="footer__h">ติดต่อ</h2>
           <ul class="footer__contact">
+            <li>${icon('pin')}<span>${addressText}</span></li>
             <li>${icon('phone')}<a href="tel:${site.tel}">${site.phone}</a></li>
             <li>${icon('clock')}<span>${site.hours.days}<br>8:30 - 18:00 น.</span></li>
             <li>${icon('tow')}<span>รถยกสไลด์ทั่วประเทศ 24 ชม.</span></li>
@@ -226,6 +228,16 @@ function localBusinessJsonLd() {
     url: site.origin + '/',
     telephone: '+66' + site.tel.slice(1),
     openingHours: 'Mo-Sa 08:30-18:00',
+    image: site.origin + '/assets/logo.png',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: site.address.street,
+      addressLocality: site.address.area,
+      addressRegion: site.address.city,
+      postalCode: site.address.postcode,
+      addressCountry: 'TH',
+    },
+    areaServed: 'กรุงเทพมหานคร',
     sameAs: [site.facebook],
   };
   return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
@@ -344,8 +356,9 @@ const mapSection = ({ info = true } = {}) => `
 <section class="mapsec" aria-labelledby="map-h">
   <div class="wrap">
     <p class="eyebrow">Location</p>
-    <div class="head head--inline">
+    <div class="head head--inline mapsec__head">
       <h2 class="section-title" id="map-h">เดินทางมาที่อู่</h2>
+      <p class="mapsec__addr">${icon('pin')}<span>${addressText}</span></p>
       <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.mapQuery)}" target="_blank" rel="noopener">${icon('pin')}เปิดใน Google Maps</a>
     </div>
     <div class="mapsec__box">
@@ -602,7 +615,7 @@ add({
   path: paths.contact,
   title: 'ติดต่อ อู่ซ่อมรถมินิ MINI BMW BENZ',
   active: 'contact',
-  description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถมินิ MINI BMW โทร ${site.phone} ${site.hours.days} 8:30 - 18:00 น.`,
+  description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถมินิ MINI BMW ${addressText} โทร ${site.phone} ${site.hours.days} 8:30 - 18:00 น.`,
   body: `
 ${pageHead('ติดต่อเรา', [['ติดต่อเรา']], 'อู่ซ่อมรถมินิ MINI, BMW, BENZ โดยทีมงานมืออาชีพ')}
 <section class="section">
