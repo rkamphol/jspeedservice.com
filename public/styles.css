@@ -179,6 +179,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .stats li { display: grid; gap: 2px; }
 .stats b { font-size: clamp(1.8rem, 1.2rem + 2vw, 2.8rem); line-height: 1; color: #fff; }
 .stats b small { font: 600 .45em/1 var(--font-head); margin-left: 6px; letter-spacing: 0; text-transform: none; }
+/* Three brand names: smaller so they stay on one line in narrow columns. */
+.stats b.stats__wide { font-size: clamp(1.25rem, .85rem + 1.5vw, 2.1rem); white-space: nowrap; }
+.stats b.stats__wide small { margin: 0 4px; }
 .stats span { color: var(--on-red-muted); font-size: var(--fs-sm); }
 .hero__media { position: relative; min-height: 360px; }
 /* The photo meets the red panel with a sharp slanted edge (like the logo's "J") instead of a
@@ -486,7 +489,7 @@ a.infocard:hover .infocard__ico { transform: translateY(-50%) rotate(-8deg) scal
 .work { margin: 0; border-radius: var(--r-md); overflow: hidden; background: var(--ink-2); transition: transform var(--dur-base) var(--ease-out); }
 .work:hover { transform: translateY(-4px); }
 .work figcaption { padding: var(--s-4) var(--s-5) var(--s-5); color: #c9c9cf; font-size: .95rem; line-height: 1.6; border-top: 3px solid var(--red); }
-.brands { display: grid; grid-template-columns: repeat(2, minmax(0, 380px)); gap: var(--s-5); }
+.brands { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-5); }
 .brandcard {
   display: flex; align-items: center; gap: var(--s-4); padding: var(--s-5); border-radius: var(--r-md); border: 1px solid var(--line);
   color: var(--ink); font: 600 var(--fs-lg)/1.3 var(--font-head);
@@ -587,6 +590,8 @@ a.contact-card--accent:hover { color: #fff; box-shadow: var(--shadow-red); }
   .work-grid, .post-grid--3 { grid-template-columns: repeat(2, 1fr); }
   .why { grid-template-columns: 1fr; }
   .brands-sec { grid-template-columns: 1fr; }
+  /* Three columns get narrow here: logo above the text. */
+  .brandcard { flex-direction: column; text-align: center; }
 }
 @media (max-width: 900px) {
   :root { --nav-h: 64px; }
@@ -650,6 +655,7 @@ a.contact-card--accent:hover { color: #fff; box-shadow: var(--shadow-red); }
   .stats { gap: var(--s-5); }
   .hero__badge { left: var(--s-4); right: var(--s-4); bottom: var(--s-4); }
   .svc-grid, .svc-links, .post-grid, .post-grid--3, .work-grid, .contact-grid, .brands, .sidebar, .why__cols, .about-intro .facts { grid-template-columns: 1fr; }
+  .brandcard { flex-direction: row; text-align: left; }
   .svc { min-height: 300px; }
   .brands-sec__cards { grid-template-columns: repeat(2, 1fr); gap: var(--s-3); }
   .gallery--3, .gallery--mosaic { grid-template-columns: repeat(2, 1fr); gap: var(--s-2); }

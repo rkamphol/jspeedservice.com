@@ -1,5 +1,6 @@
 # J SPEED SERVICE website
 
+J SPEED SERVICE repairs European cars (MINI Cooper, BMW, Mercedes-Benz, all models).
 Static site (Node ESM, no dependencies). `npm run build` writes `dist/`; every push to `main`
 deploys it with GitHub Pages (`.github/workflows/pages.yml`). See README.md for the files.
 

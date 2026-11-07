@@ -1,6 +1,6 @@
 # J SPEED SERVICE website
 
-Static website for J SPEED SERVICE (MINI / BMW repair). Every page keeps the old site's
+Static website for J SPEED SERVICE (European car repair: MINI Cooper, BMW, Mercedes-Benz). Every page keeps the old site's
 address so existing links and search rankings keep working.
 
 ## Build
