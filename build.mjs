@@ -466,9 +466,11 @@ add({
 </section>
 <section class="section section--tint" aria-labelledby="svc-h">
   <div class="wrap">
-    <div class="head">
-      <div><p class="eyebrow">Our services</p><h2 class="section-title" id="svc-h">บริการของเรา</h2></div>
-      <p>ซ่อมและดูแลรถยุโรป MINI · BMW · BENZ ครบทุกระบบ โดยทีมช่างเฉพาะทาง ตรวจเช็คด้วยคอมพิวเตอร์ รับประกันงานซ่อม</p>
+    <div class="head head--wide">
+      <div>
+        <p class="eyebrow">Our services</p><h2 class="section-title" id="svc-h">บริการของเรา</h2>
+        <p>ซ่อมและดูแลรถยุโรป MINI · BMW · BENZ ครบทุกระบบ โดยทีมช่างเฉพาะทาง ตรวจเช็คด้วยคอมพิวเตอร์ รับประกันงานซ่อม</p>
+      </div>
     </div>
     <div class="svc-grid">${services.map(serviceCard).join('')}</div>
   </div>
@@ -507,8 +509,9 @@ add({
 </section>
 <section class="section" aria-labelledby="posts-h">
   <div class="wrap">
-    <div class="head">
-      <div><p class="eyebrow">Repair stories</p><h2 class="section-title" id="posts-h">งานซ่อมล่าสุด</h2></div>
+    <p class="eyebrow">Repair stories</p>
+    <div class="head head--inline">
+      <h2 class="section-title" id="posts-h">งานซ่อมล่าสุด</h2>
       <a class="btn btn--outline" href="${categories.mini.path}">ดูงานซ่อมทั้งหมด ${icon('arrow')}</a>
     </div>
     <div class="post-grid post-grid--3">${posts.slice(0, 6).map(postCard).join('')}</div>
