@@ -194,6 +194,7 @@ function layout({ path, title, seoTitle = title, description, active, body, type
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description || site.description)}">
 <link rel="canonical" href="${url}">
@@ -842,7 +843,10 @@ for (const p of pages) {
   seen.add(dir);
   const file = join(out, dir, 'index.html');
   mkdirSync(dirname(file), { recursive: true });
-  writeFileSync(file, withBase(layout(p)));
+  const html = withBase(layout(p));
+  writeFileSync(file, html);
+  // Photos the page shows (not the logo or icons), listed in the sitemap so Google finds them.
+  p.photos = [...new Set([...html.matchAll(/<img[^>]*\ssrc="(\/wp-content\/[^"?]+)"/g)].map((m) => m[1]))];
 }
 
 const missing = legacyLinks.filter((u) => !seen.has(fsPath(u)));
@@ -931,11 +935,12 @@ if (noWebp.length) throw new Error(`Photos without WebP copies (run node scripts
 const postDate = new Map(posts.map((p) => [p.path, p.date]));
 writeFileSync(
   join(out, 'sitemap.xml'),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${pages
     .filter((p) => !p.path.includes('/page/'))
     .map((p) => {
       const date = postDate.get(p.path);
-      return `  <url><loc>${site.origin}${p.path}</loc>${date ? `<lastmod>${date}</lastmod>` : ''}</url>`;
+      const imgs = p.photos.map((src) => `<image:image><image:loc>${esc(site.origin + encodeURI(src))}</image:loc></image:image>`).join('');
+      return `  <url><loc>${site.origin}${p.path}</loc>${date ? `<lastmod>${date}</lastmod>` : ''}${imgs}</url>`;
     })
     .join('\n')}\n</urlset>\n`,
 );
