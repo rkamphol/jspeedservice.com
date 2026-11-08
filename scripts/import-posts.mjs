@@ -71,7 +71,10 @@ function parse(file) {
   if (!href || !title || !date) return null;
   // Many posts repeat their title as a heading at the top of the text; the page shows it already.
   const same = (a) => a.replace(/\s+/g, '').toLowerCase();
-  const paras = body.filter((t) => same(t) !== same(title));
+  // Also drop the old theme's link labels and photo headings (their links and photos aren't kept)
+  // and lines repeated within a post.
+  const junk = /^(ลิงค์เพิ่มเติม|ติดต่อสอบถาม|บอร์ดพูดคุย|ลิงค์เพิ่มเติม ติดต่อสอบถาม บอร์ดพูดคุย|ติดต่อสอบถามเพิ่มเติม Board พูดคุย|รูปภาพเพิ่มเติม.*|ภาพอื่นๆ)$/;
+  const paras = body.filter((t, i) => same(t) !== same(title) && !junk.test(t) && body.indexOf(t) === i);
   return { title, path: new URL(href).pathname, date, dateTh: dateTh.trim(), cats: cats.length ? cats : ['mini'], body: paras, images: [...new Set(imgs)] };
 }
 

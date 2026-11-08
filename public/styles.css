@@ -451,6 +451,10 @@ a.infocard:hover .infocard__ico { transform: translateY(-50%) rotate(-8deg) scal
 .prose { font-size: 1.05rem; max-width: 75ch; }
 .prose p { color: #4a4b52; }
 .prose h3 { font-size: var(--fs-lg); margin: 1.6em 0 .35em; }
+.summary { display: grid; gap: var(--s-3); margin: 0 0 var(--s-6); padding: var(--s-5) var(--s-6); }
+.summary > div { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: var(--s-4); }
+.summary dt { font-weight: 600; color: var(--red-600); }
+.summary dd { margin: 0; color: var(--ink); }
 /* Symptom list on service pages: two columns of short lines. */
 .symptoms { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-3) var(--s-5); }
 .symptoms li { align-items: center; color: var(--ink); }
@@ -651,6 +655,8 @@ a.contact-card--accent:hover { color: #fff; box-shadow: var(--shadow-red); }
 
 /* ---------- phone ---------- */
 @media (max-width: 600px) {
+  .summary > div { grid-template-columns: 1fr; gap: 0; }
+  .summary { padding: var(--s-5); }
   .mapsec__head { grid-template-columns: 1fr; }
   .mapsec__head .btn { grid-column: 1; grid-row: 3; justify-self: start; margin-top: var(--s-2); }
   body { font-size: .95rem; }

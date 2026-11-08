@@ -696,6 +696,9 @@ ${mapSection({ info: false })}`,
 });
 
 // Repair stories
+const summaryRows = [['problem', 'อาการ'], ['fix', 'วิธีแก้'], ['result', 'ผลลัพธ์'], ['tip', 'คำแนะนำ']];
+const storySummary = (s) => `
+<dl class="card summary">${summaryRows.filter(([k]) => s[k]).map(([k, label]) => `<div><dt>${label}</dt><dd>${esc(s[k])}</dd></div>`).join('')}</dl>`;
 posts.forEach((p, i) => {
   // Two neighbouring stories from the same category (the next older ones, wrapping around).
   const same = posts.filter((o) => o.cats[0] === p.cats[0]);
@@ -707,7 +710,7 @@ posts.forEach((p, i) => {
     title: p.title,
     active: '',
     type: 'article',
-    description: `${clip(p.body.join(' '), 100)} ซ่อมโดย J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW Benz บึงกุ่ม โทร ${site.phone}`,
+    description: `${clip(p.summary ? `${p.summary.problem} ${p.summary.fix}` : p.body.join(' '), 100)} ซ่อมโดย J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW Benz บึงกุ่ม โทร ${site.phone}`,
     image: cover && (cover.full ?? cover).src,
     jsonLd: [{
       '@context': 'https://schema.org',
@@ -727,6 +730,7 @@ ${pageHead(p.title, [[categories[p.cats[0]].name, categories[p.cats[0]].path], [
     <article class="content">
       ${postMeta(p)}
       <div class="article__img">${tile(p.icon, i, p.title, cover, '(max-width: 1100px) 100vw, 800px')}</div>
+      ${p.summary ? storySummary(p.summary) : ''}
       <div class="prose">
         ${p.body.map((t) => `<p>${esc(t)}</p>`).join('\n        ')}
         <p>หากรถของคุณมีอาการคล้ายกัน ทีมช่าง J SPEED SERVICE พร้อมตรวจเช็คด้วยเครื่องคอมพิวเตอร์ แจ้งสาเหตุและราคาก่อนซ่อม และรับประกันงานซ่อมทุกงาน</p>

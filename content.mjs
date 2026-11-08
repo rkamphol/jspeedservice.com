@@ -141,11 +141,17 @@ const excerpt = (body) => {
   const first = body[0] ?? '';
   return first.length > 90 ? `${first.slice(0, 90).replace(/\s+\S*$/, '')}…` : first;
 };
+// Short "อาการ / วิธีแก้ / ผลลัพธ์" box per story, keyed by the story's decoded path. Written from
+// each story's own text: don't add claims the story doesn't make.
+const summaries = JSON.parse(readFileSync(new URL('./summaries.json', import.meta.url), 'utf8'));
 export const posts = JSON.parse(readFileSync(new URL('./posts.json', import.meta.url), 'utf8')).map((p) => ({
   ...p,
   icon: postIcon(p.title),
   lead: excerpt(p.body),
+  summary: summaries[decodeURI(p.path)],
 }));
+const unknown = Object.keys(summaries).filter((k) => !posts.some((p) => decodeURI(p.path) === k));
+if (unknown.length) throw new Error(`summaries.json: no story at ${unknown.join(', ')}`);
 
 export const categories = {
   mini: { name: 'งานซ่อม MINI', path: paths.catMini },
