@@ -6,7 +6,7 @@ import { mkdirSync, rmSync, writeFileSync, copyFileSync, cpSync, readFileSync, e
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
-import { site, paths, services, posts, categories, aboutWork } from './content.mjs';
+import { site, paths, services, posts, categories, aboutWork, maintenance } from './content.mjs';
 import { icon, facebookIcon } from './icons.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
@@ -251,6 +251,7 @@ function googleTag() {
 const localBusiness = {
     '@context': 'https://schema.org',
     '@type': 'AutoRepair',
+    '@id': site.origin + '/#business',
     name: site.name,
     url: site.origin + '/',
     telephone: '+66' + site.tel.slice(1),
@@ -576,6 +577,13 @@ ${pageHead('เกี่ยวกับเรา', [['เกี่ยวกั�
 ${ctaBand()}`,
 });
 
+// Routine servicing: a block on the first services page (not a service card of its own).
+const maintenanceBlock = () => `
+<section class="card maint" aria-labelledby="maint-h">
+  <div><h2 class="section-title section-title--sm" id="maint-h">${maintenance.title}</h2><p>${maintenance.lead}</p></div>
+  <ul class="checks">${maintenance.items.map((m) => `<li>${icon('check')}<span><b>${m.h}</b>${m.text}</span></li>`).join('')}</ul>
+</section>`;
+
 // Services listing (3 pages, like the old site's pagination)
 const servicePageUrls = [paths.services, '/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/page/2/', '/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/page/3/'];
 servicePageUrls.forEach((url, pageIndex) => {
@@ -601,6 +609,7 @@ ${pageHead('บริการ', [['บริการ']])}
         )
         .join('')}
     </div>
+    ${pageIndex ? '' : maintenanceBlock()}
     <div class="filters" role="toolbar" aria-label="หมวดหมู่ผลงาน">
       <span class="filters__label">CATEGORIES:</span>
       <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">SHOW ALL</button>
@@ -625,14 +634,29 @@ for (const s of services) {
     title: name,
     seoTitle: `${name} รถยุโรป MINI BMW Benz`,
     active: 'services',
-    description: `${clip(s.body[0], 120)} ${site.name} โทร ${site.phone}`,
+    description: `${name} รถยุโรป MINI BMW Benz: ${s.symptoms.slice(0, 2).join(' · ')} แจ้งราคาก่อนซ่อม โทร ${site.phone}`,
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: `${name} รถยุโรป MINI BMW Benz`,
+      serviceType: name,
+      description: [s.body[0], ...s.sections.map((x) => x.h)].join(' '),
+      provider: { '@id': site.origin + '/#business' },
+      areaServed: 'กรุงเทพมหานคร',
+      url: site.origin + s.path,
+    }],
     body: `
 ${pageHead(name, [['บริการ', paths.services], [name]])}
 <section class="section">
   <div class="wrap with-sidebar">
     <div class="content">
-      <div class="prose">${s.body.map((p) => `<p>${p}</p>`).join('')}</div>
-      <h2 class="section-title section-title--sm">อาการที่เราดูแล</h2>
+      <div class="prose">
+        ${s.body.map((p) => `<p>${p}</p>`).join('')}
+        ${s.sections.map((x) => `<h3>${x.h}</h3><p>${x.text}</p>`).join('')}
+      </div>
+      <h2 class="section-title section-title--sm">อาการที่ควรนำรถเข้าเช็ค</h2>
+      <ul class="checks symptoms">${s.symptoms.map((x) => `<li>${icon('check')}<span>${x}</span></li>`).join('')}</ul>
+      <h2 class="section-title section-title--sm">งานที่เราดูแล</h2>
       <ul class="chips">${s.points.map((p) => `<li>${icon('check')}${p}</li>`).join('')}</ul>
       <div class="gallery gallery--3">
         ${(picsFor(s).length ? picsFor(s) : Array(9).fill(null)).map((p, i) => tile(s.icon, i, `${name} – ภาพงานซ่อม`, p)).join('')}
