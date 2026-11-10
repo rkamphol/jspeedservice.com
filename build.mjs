@@ -104,7 +104,7 @@ function header(active) {
 <a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
 <div class="topbar">
   <div class="wrap topbar__in">
-    <span class="topbar__hours">${icon('clock')}${site.hours.days} · 8:30 - 18:00 น.</span>
+    <span class="topbar__hours">${icon('clock')}${site.hours.days} · ${site.hours.opens} - ${site.hours.closes} น.</span>
     <span class="topbar__tow">${icon('tow')}รถยกสไลด์ทั่วประเทศ 24 ชม.</span>
     <a class="topbar__fb" href="${site.facebook}" target="_blank" rel="noopener">${facebookIcon}facebook.com/jspeedservice</a>
   </div>
@@ -161,7 +161,7 @@ function footer() {
           <ul class="footer__contact">
             <li>${icon('pin')}<span>${addressText}</span></li>
             <li>${icon('phone')}<a href="tel:${site.tel}">${site.phone}</a></li>
-            <li>${icon('clock')}<span>${site.hours.days}<br>8:30 - 18:00 น.</span></li>
+            <li>${icon('clock')}<span>${site.hours.days}<br>${site.hours.opens} - ${site.hours.closes} น.</span></li>
             <li>${icon('tow')}<span>รถยกสไลด์ทั่วประเทศ 24 ชม.</span></li>
           </ul>
         </div>
@@ -256,7 +256,7 @@ const localBusiness = {
     name: site.name,
     url: site.origin + '/',
     telephone: '+66' + site.tel.slice(1),
-    openingHours: 'Mo-Sa 08:30-18:00',
+    openingHours: `Mo-Sa ${site.hours.opens.padStart(5, '0')}-${site.hours.closes.padStart(5, '0')}`,
     image: site.origin + '/assets/logo.png',
     address: {
       '@type': 'PostalAddress',
@@ -267,7 +267,8 @@ const localBusiness = {
       addressCountry: 'TH',
     },
     areaServed: 'กรุงเทพมหานคร',
-    sameAs: [site.facebook],
+    hasMap: site.maps,
+    sameAs: [site.facebook, site.maps],
 };
 
 function pageHead(title, crumbs, lead = '') {
@@ -396,7 +397,7 @@ const mapSection = ({ info = true } = {}) => `
     <div class="head head--inline mapsec__head">
       <h2 class="section-title" id="map-h">เดินทางมาที่อู่</h2>
       <p class="mapsec__addr">${icon('pin')}<span>${addressText}</span></p>
-      <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.mapQuery)}" target="_blank" rel="noopener">${icon('pin')}เปิดใน Google Maps</a>
+      <a class="btn btn--outline" href="${site.maps}" target="_blank" rel="noopener">${icon('pin')}เปิดใน Google Maps</a>
     </div>
     <div class="mapsec__box">
       <div class="mapsec__frame">
@@ -457,7 +458,7 @@ add({
       <ul class="stats">
         <li><b class="display">24<small>ชม.</small></b><span>รถยกสไลด์ รับส่งรถทั่วประเทศ</span></li>
         <li><b class="display stats__wide">MINI<small>·</small>BMW<small>·</small>BENZ</b><span>รถยุโรปทุกรุ่น ทุกระบบ</span></li>
-        <li><b class="display">8:30<small>น.</small></b><span>เปิด${site.hours.days} ถึง 18:00 น.</span></li>
+        <li><b class="display">${site.hours.opens}<small>น.</small></b><span>เปิด${site.hours.days} ถึง ${site.hours.closes} น.</span></li>
       </ul>
       <div class="hero__media">
         ${workPics[5] ? img(workPics[5], 'ช่างกำลังซ่อมรถในอู่ J SPEED SERVICE', '', '(max-width: 900px) 100vw, 800px').replace(' loading="lazy"', ' fetchpriority="high"') : ''}
@@ -682,13 +683,13 @@ add({
   title: 'ติดต่อ อู่ซ่อมรถมินิ MINI BMW BENZ',
   seoTitle: 'ติดต่อ แผนที่อู่ ซอยคลองลำเจียก 41 บึงกุ่ม',
   active: 'contact',
-  description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ ${addressText} โทร ${site.phone} ${site.hours.days} 8:30 - 18:00 น.`,
+  description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ ${addressText} โทร ${site.phone} ${site.hours.days} ${site.hours.opens} - ${site.hours.closes} น.`,
   body: `
 ${pageHead('ติดต่อเรา', [['ติดต่อเรา']], 'อู่ซ่อมรถยุโรป MINI, BMW, BENZ โดยทีมงานมืออาชีพ')}
 <section class="section">
   <div class="wrap contact-grid">
     <a class="contact-card contact-card--accent" href="tel:${site.tel}">${icon('phone')}<span><b>โทรหาเรา</b><span class="contact-card__num">${site.phone}</span></span></a>
-    <div class="contact-card">${icon('clock')}<span><b>เวลาทำการ</b>${site.hours.days}<br>8:30 - 18:00 น.</span></div>
+    <div class="contact-card">${icon('clock')}<span><b>เวลาทำการ</b>${site.hours.days}<br>${site.hours.opens} - ${site.hours.closes} น.</span></div>
     <a class="contact-card" href="${site.facebook}" target="_blank" rel="noopener">${facebookIcon}<span><b>Facebook</b>facebook.com/jspeedservice</span></a>
     <div class="contact-card">${icon('tow')}<span><b>รถยกสไลด์ 24 ชม.</b>รับส่งรถนอกสถานที่ทั่วประเทศไทย</span></div>
   </div>
