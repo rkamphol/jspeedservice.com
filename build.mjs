@@ -536,7 +536,7 @@ ${mapSection()}`,
 add({
   path: paths.about,
   title: 'เกี่ยวกับเรา',
-  seoTitle: 'เกี่ยวกับอู่ซ่อมรถยุโรป MINI BMW Benz Porsche ทุกรุ่น',
+  seoTitle: 'เกี่ยวกับอู่มินิ อู่ซ่อมรถ MINI BMW Benz Porsche ทุกรุ่น',
   active: 'about',
   description: 'รู้จักอู่ J SPEED SERVICE อู่ซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น ย่านบึงกุ่ม รามอินทรา ตรวจเช็คด้วยระบบคอมพิวเตอร์ ซ่อมเครื่อง เกียร์ ช่วงล่าง แอร์ และระบบไฟ รับประกันงานซ่อม',
   body: `
@@ -597,7 +597,7 @@ servicePageUrls.forEach((url, pageIndex) => {
   add({
     path: url,
     title: pageIndex ? `บริการ – หน้า ${pageIndex + 1}` : 'บริการ',
-    seoTitle: `บริการซ่อมรถยุโรป MINI BMW Benz Porsche${pageIndex ? ` – หน้า ${pageIndex + 1}` : ''}`,
+    seoTitle: `อู่มินิ บริการซ่อมรถ MINI BMW Benz Porsche${pageIndex ? ` – หน้า ${pageIndex + 1}` : ''}`,
     active: 'services',
     description: `บริการซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น: ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง แอร์และระบบไฟฟ้า ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม โทร ${site.phone}${pageIndex ? ` (หน้า ${pageIndex + 1})` : ''}`,
     body: `
@@ -681,7 +681,7 @@ ${ctaBand()}`,
 add({
   path: paths.contact,
   title: 'ติดต่อ อู่ซ่อมรถมินิ MINI BMW BENZ PORSCHE',
-  seoTitle: 'ติดต่อ แผนที่อู่ ซอยคลองลำเจียก 41 บึงกุ่ม',
+  seoTitle: 'ติดต่ออู่มินิ แผนที่ ซอยคลองลำเจียก 41 บึงกุ่ม',
   active: 'contact',
   description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ PORSCHE ${addressText} โทร ${site.phone} ${site.hours.days} ${site.hours.opens} - ${site.hours.closes} น.`,
   body: `
