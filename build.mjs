@@ -138,7 +138,7 @@ function footer() {
       <div class="footer__grid">
         <div class="footer__brand">
           <a class="brand brand--light" href="/"><img class="brand__logo" src="${asset('logo.png')}" width="218" height="112" alt="${site.name}"></a>
-          <p>อู่ซ่อมรถยุโรป MINI BMW BENZ โดยทีมงานมืออาชีพ ตรวจเช็คด้วยระบบคอมพิวเตอร์ รับประกันงานซ่อม</p>
+          <p>อู่ซ่อมรถยุโรป MINI BMW BENZ PORSCHE โดยทีมงานมืออาชีพ ตรวจเช็คด้วยระบบคอมพิวเตอร์ รับประกันงานซ่อม</p>
         </div>
         <div>
           <h2 class="footer__h">เมนู</h2>
@@ -380,7 +380,7 @@ const sidebar = () => `
 <aside class="sidebar">
   <section class="card card--about">
     <h2 class="card__h">เกี่ยวกับเรา</h2>
-    <h3>อู่ J SPEED SERVICE มีประสบการณ์ และความชำนาญบริการซ่อมรถยุโรป MINI, BMW, BENZ ทุกรุ่น</h3>
+    <h3>อู่ J SPEED SERVICE มีประสบการณ์ และความชำนาญบริการซ่อมรถยุโรป MINI, BMW, BENZ, PORSCHE ทุกรุ่น</h3>
     <p>เราให้บริการซ่อมเครื่อง เกียร์ เบรค คลัช ช่วงล่าง ระบบแอร์ รวมทั้งระบบไฟโดยใช้เครื่องคอมพิวเตอร์ตรวจเช็คระบบไฟฟ้าต่างๆภายในรถยนต์ ให้บริการราคาถูก รับประกันคุณภาพงานซ่อม</p>
     <h3 class="card__note">${icon('tow')}นอกจากนี้เรายังมีบริการ รับส่งรถ นอกสถานที่ และมีบริการรถยกสไลด์ทั่วประเทศไทย 24 ชม.</h3>
     <a class="btn btn--small" href="${paths.about}">รู้จักเรามากขึ้น ${icon('arrow')}</a>
@@ -446,9 +446,9 @@ add({
   body: `
 <section class="hero">
   <div class="wrap">
-    <h1 class="hero__title display" data-reveal>J SPEED <span>SERVICE</span></h1>
+    <h1 class="hero__title display" data-reveal><small class="hero__kicker">อู่ซ่อมรถมินิ MINI BMW Benz Porsche บึงกุ่ม</small>J SPEED <span>SERVICE</span></h1>
     <div class="hero__top">
-      <p class="hero__lead" data-reveal>บริการซ่อมรถยนต์ยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง เบรค คลัช แอร์ เปลี่ยนถ่ายน้ำมันเครื่อง เช็คระบบไฟฟ้าทั้งคัน</p>
+      <p class="hero__lead" data-reveal>บริการซ่อมรถยนต์ยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง เบรค คลัช แอร์ เปลี่ยนถ่ายน้ำมันเครื่อง เช็คระบบไฟฟ้าทั้งคัน</p>
       <div class="hero__cta" data-reveal>
         ${callButton('btn btn--lg')}
         <a class="btn btn--outline btn--lg" href="${paths.services}">ดูบริการของเรา ${icon('arrow')}</a>
@@ -457,7 +457,7 @@ add({
     <div class="hero__panel" data-reveal>
       <ul class="stats">
         <li><b class="display">24<small>ชม.</small></b><span>รถยกสไลด์ รับส่งรถทั่วประเทศ</span></li>
-        <li><b class="display stats__wide">MINI<small>·</small>BMW<small>·</small>BENZ</b><span>รถยุโรปทุกรุ่น ทุกระบบ</span></li>
+        <li><b class="display stats__wide">MINI<small>·</small>BMW<small>·</small>BENZ<small>·</small>PORSCHE</b><span>รถยุโรปทุกรุ่น ทุกระบบ</span></li>
         <li><b class="display">${site.hours.opens}<small>น.</small></b><span>เปิด${site.hours.days} ถึง ${site.hours.closes} น.</span></li>
       </ul>
       <div class="hero__media">
@@ -472,7 +472,7 @@ add({
     <div class="head head--wide">
       <div>
         <p class="eyebrow">Our services</p><h2 class="section-title" id="svc-h">บริการของเรา</h2>
-        <p>ซ่อมและดูแลรถยุโรป MINI · BMW · BENZ ครบทุกระบบ โดยทีมช่างเฉพาะทาง ตรวจเช็คด้วยคอมพิวเตอร์ รับประกันงานซ่อม</p>
+        <p>ซ่อมและดูแลรถยุโรป MINI · BMW · BENZ · PORSCHE ครบทุกระบบ โดยทีมช่างเฉพาะทาง ตรวจเช็คด้วยคอมพิวเตอร์ รับประกันงานซ่อม</p>
       </div>
     </div>
     <div class="svc-grid">${services.map(serviceCard).join('')}</div>
@@ -484,7 +484,7 @@ add({
       <div class="about-band__img">${tile('car', 0, 'ภายในอู่ J SPEED SERVICE', workPics[0])}</div>
       <div>
         <p class="eyebrow">About us</p>
-        <h2>อู่ J SPEED SERVICE ประสบการณ์ซ่อมรถยุโรป MINI · BMW · BENZ ทุกรุ่น</h2>
+        <h2>อู่ J SPEED SERVICE ประสบการณ์ซ่อมรถยุโรป MINI · BMW · BENZ · PORSCHE ทุกรุ่น</h2>
         <p>เราให้บริการซ่อมเครื่อง เกียร์ เบรค คลัช ช่วงล่าง ระบบแอร์ รวมทั้งระบบไฟโดยใช้เครื่องคอมพิวเตอร์ตรวจเช็คระบบไฟฟ้าต่างๆภายในรถยนต์ ให้บริการราคาถูก รับประกันคุณภาพงานซ่อม</p>
         <ul class="about-band__list">
           <li>${icon('check')}อะไหล่แท้ เทียมคุณภาพ และมือสองแท้ เลือกได้</li>
@@ -499,7 +499,7 @@ add({
   <div class="wrap why">
     <div class="why__card">
       <h2 class="why__tab">ทำไมต้อง J SPEED</h2>
-      <h2 class="section-title">J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ โดยทีมงานมืออาชีพ</h2>
+      <h2 class="section-title">J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ PORSCHE โดยทีมงานมืออาชีพ</h2>
       <p>บริการซ่อมระบบไฮบริด (Hybrid) เปลี่ยนแบตเตอรี่ไฮบริด ตรวจเช็ค inverter และระบบไฟฟ้าต่างๆ และซ่อมงานทั่วไป ตั้งแต่หลังคา (เปิด-ปิดไม่ได้), เซนทรัลล็อค, รางกระจกเสีย, ทำสี, ใส่ชุดแต่ง ฯลฯ</p>
       <div class="why__cols">
         <div><h3>${icon('chip')}ตรวจถูกจุด</h3><p>วิเคราะห์ปัญหาด้วยคอมพิวเตอร์ก่อนซ่อมทุกครั้ง</p></div>
@@ -536,16 +536,16 @@ ${mapSection()}`,
 add({
   path: paths.about,
   title: 'เกี่ยวกับเรา',
-  seoTitle: 'เกี่ยวกับอู่ซ่อมรถยุโรป MINI BMW Benz ทุกรุ่น',
+  seoTitle: 'เกี่ยวกับอู่ซ่อมรถยุโรป MINI BMW Benz Porsche ทุกรุ่น',
   active: 'about',
-  description: 'รู้จักอู่ J SPEED SERVICE อู่ซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ทุกรุ่น ย่านบึงกุ่ม รามอินทรา ตรวจเช็คด้วยระบบคอมพิวเตอร์ ซ่อมเครื่อง เกียร์ ช่วงล่าง แอร์ และระบบไฟ รับประกันงานซ่อม',
+  description: 'รู้จักอู่ J SPEED SERVICE อู่ซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น ย่านบึงกุ่ม รามอินทรา ตรวจเช็คด้วยระบบคอมพิวเตอร์ ซ่อมเครื่อง เกียร์ ช่วงล่าง แอร์ และระบบไฟ รับประกันงานซ่อม',
   body: `
 ${pageHead('เกี่ยวกับเรา', [['เกี่ยวกับเรา']])}
 <section class="section">
   <div class="wrap about-intro">
     <div>
       <h2 class="section-title">อู่ J SPEED SERVICE</h2>
-      <p class="section-lead">บริการซ่อมรถยนต์ยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ตรวจเช็คด้วยระบบคอมพิวเตอร์ ลบไฟและเดินระบบไฟใหม่</p>
+      <p class="section-lead">บริการซ่อมรถยนต์ยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ตรวจเช็คด้วยระบบคอมพิวเตอร์ ลบไฟและเดินระบบไฟใหม่</p>
       <p>เราให้บริการซ่อมเครื่อง เกียร์ เบรค คลัช ช่วงล่าง ระบบแอร์ รวมทั้งระบบไฟโดยใช้เครื่องคอมพิวเตอร์ตรวจเช็คระบบไฟฟ้าต่างๆภายในรถยนต์ ให้บริการราคาถูก รับประกันคุณภาพงานซ่อม นอกจากนี้เรายังมีบริการ รับส่งรถ นอกสถานที่ และมีบริการรถยกสไลด์ทั่วประเทศไทย 24 ชม.</p>
     </div>
     <ul class="facts">
@@ -597,9 +597,9 @@ servicePageUrls.forEach((url, pageIndex) => {
   add({
     path: url,
     title: pageIndex ? `บริการ – หน้า ${pageIndex + 1}` : 'บริการ',
-    seoTitle: `บริการซ่อมรถยุโรป MINI BMW Benz${pageIndex ? ` – หน้า ${pageIndex + 1}` : ''}`,
+    seoTitle: `บริการซ่อมรถยุโรป MINI BMW Benz Porsche${pageIndex ? ` – หน้า ${pageIndex + 1}` : ''}`,
     active: 'services',
-    description: `บริการซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ทุกรุ่น: ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง แอร์และระบบไฟฟ้า ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม โทร ${site.phone}${pageIndex ? ` (หน้า ${pageIndex + 1})` : ''}`,
+    description: `บริการซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น: ซ่อมเครื่องยนต์ ระบบเกียร์ ช่วงล่าง แอร์และระบบไฟฟ้า ตรวจเช็คด้วยคอมพิวเตอร์ แจ้งราคาก่อนซ่อม โทร ${site.phone}${pageIndex ? ` (หน้า ${pageIndex + 1})` : ''}`,
     body: `
 ${pageHead('บริการ', [['บริการ']])}
 <section class="section">
@@ -634,13 +634,13 @@ for (const s of services) {
   add({
     path: s.path,
     title: name,
-    seoTitle: `${name} รถยุโรป MINI BMW Benz`,
+    seoTitle: `${name} รถยุโรป MINI BMW Benz Porsche`,
     active: 'services',
-    description: `${name} รถยุโรป MINI BMW Benz: ${s.symptoms.slice(0, 2).join(' · ')} แจ้งราคาก่อนซ่อม โทร ${site.phone}`,
+    description: `${name} รถยุโรป MINI BMW Benz Porsche: ${s.symptoms.slice(0, 2).join(' · ')} แจ้งราคาก่อนซ่อม โทร ${site.phone}`,
     jsonLd: [{
       '@context': 'https://schema.org',
       '@type': 'Service',
-      name: `${name} รถยุโรป MINI BMW Benz`,
+      name: `${name} รถยุโรป MINI BMW Benz Porsche`,
       serviceType: name,
       description: [s.body[0], ...s.sections.map((x) => x.h)].join(' '),
       provider: { '@id': site.origin + '/#business' },
@@ -680,12 +680,12 @@ ${ctaBand()}`,
 // Contact
 add({
   path: paths.contact,
-  title: 'ติดต่อ อู่ซ่อมรถมินิ MINI BMW BENZ',
+  title: 'ติดต่อ อู่ซ่อมรถมินิ MINI BMW BENZ PORSCHE',
   seoTitle: 'ติดต่อ แผนที่อู่ ซอยคลองลำเจียก 41 บึงกุ่ม',
   active: 'contact',
-  description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ ${addressText} โทร ${site.phone} ${site.hours.days} ${site.hours.opens} - ${site.hours.closes} น.`,
+  description: `ติดต่อ J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW BENZ PORSCHE ${addressText} โทร ${site.phone} ${site.hours.days} ${site.hours.opens} - ${site.hours.closes} น.`,
   body: `
-${pageHead('ติดต่อเรา', [['ติดต่อเรา']], 'อู่ซ่อมรถยุโรป MINI, BMW, BENZ โดยทีมงานมืออาชีพ')}
+${pageHead('ติดต่อเรา', [['ติดต่อเรา']], 'อู่ซ่อมรถยุโรป MINI, BMW, BENZ, PORSCHE โดยทีมงานมืออาชีพ')}
 <section class="section">
   <div class="wrap contact-grid">
     <a class="contact-card contact-card--accent" href="tel:${site.tel}">${icon('phone')}<span><b>โทรหาเรา</b><span class="contact-card__num">${site.phone}</span></span></a>
@@ -712,7 +712,7 @@ posts.forEach((p, i) => {
     title: p.title,
     active: '',
     type: 'article',
-    description: `${clip(p.summary ? `${p.summary.problem} ${p.summary.fix}` : p.body.join(' '), 100)} ซ่อมโดย J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW Benz บึงกุ่ม โทร ${site.phone}`,
+    description: `${clip(p.summary ? `${p.summary.problem} ${p.summary.fix}` : p.body.join(' '), 100)} ซ่อมโดย J SPEED SERVICE อู่ซ่อมรถยุโรป MINI BMW Benz Porsche บึงกุ่ม โทร ${site.phone}`,
     image: cover && (cover.full ?? cover).src,
     jsonLd: [{
       '@context': 'https://schema.org',
@@ -763,7 +763,7 @@ const archive = (path, title, list, crumbs, seoTitle = title) => {
       title: n === 1 ? title : `${title} – หน้า ${n}`,
       seoTitle: n === 1 ? seoTitle : `${seoTitle} – หน้า ${n}`,
       active: '',
-      description: `${seoTitle}: รวมเคสซ่อมจริงของรถยุโรป MINI BMW Benz ที่อู่ J SPEED SERVICE บึงกุ่ม อาการ สาเหตุ และวิธีแก้ ${n > 1 ? `(หน้า ${n})` : `โทร ${site.phone}`}`,
+      description: `${seoTitle}: รวมเคสซ่อมจริงของรถยุโรป MINI BMW Benz Porsche ที่อู่ J SPEED SERVICE บึงกุ่ม อาการ สาเหตุ และวิธีแก้ ${n > 1 ? `(หน้า ${n})` : `โทร ${site.phone}`}`,
       body: `
 ${pageHead(title, crumbs)}
 <section class="section">
@@ -779,7 +779,7 @@ for (const [key, c] of Object.entries(categories)) {
   const seo = { mini: 'งานซ่อม MINI Cooper เคสซ่อมจริง', other: 'งานซ่อมรถยุโรป BMW Benz และ MINI อื่นๆ' }[key];
   archive(c.path, c.name, posts.filter((p) => p.cats.includes(key)), [[c.name]], seo);
 }
-archive(paths.author, authorName, posts, [[authorName]], 'รวมงานซ่อมรถยุโรป MINI BMW Benz ทั้งหมด');
+archive(paths.author, authorName, posts, [[authorName]], 'รวมงานซ่อมรถยุโรป MINI BMW Benz Porsche ทั้งหมด');
 
 // Brand pages (/team-view/mini/ and /bmw/ are old addresses; /benz/ is new)
 for (const { path, name: brand } of brandPages) {
@@ -889,7 +889,6 @@ const forwardPage = (to) => {
 <head>
 <meta charset="utf-8">
 <title>${esc(site.name)} – หน้านี้ย้ายแล้ว</title>
-<meta name="robots" content="noindex">
 <link rel="canonical" href="${esc(site.origin + to)}">
 <meta http-equiv="refresh" content="0; url=${href}">
 <script>location.replace(${JSON.stringify(base + to)} + location.hash)</script>

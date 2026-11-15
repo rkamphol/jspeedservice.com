@@ -6,13 +6,13 @@ import { readFileSync } from 'node:fs';
 export const site = {
   origin: 'https://www.jspeedservice.com',
   name: 'J SPEED SERVICE',
-  title: 'อู่ซ่อมรถยุโรป มินิ MINI BMW BENZ – J SPEED SERVICE 08-333-333-22',
+  title: 'อู่ซ่อมรถยุโรป มินิ MINI BMW BENZ PORSCHE – J SPEED SERVICE 08-333-333-22',
   // What Google shows for the home page; other pages end their title with `titleTail`
   // (or just the name when the title is already long).
-  homeTitle: 'อู่มินิ อู่ซ่อมรถยุโรป MINI BMW Benz บึงกุ่ม | J SPEED SERVICE',
+  homeTitle: 'อู่มินิ อู่ซ่อมรถมินิ MINI BMW Benz Porsche บึงกุ่ม | J SPEED SERVICE',
   titleTail: ' | อู่ซ่อมรถยุโรป J SPEED SERVICE',
   description:
-    'อู่ซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซอยคลองลำเจียก 41 บึงกุ่ม แจ้งราคาก่อนซ่อม รับประกันงาน โทร 08-333-333-22',
+    'อู่ซ่อมรถยุโรป มินิคูเปอร์ บีเอ็ม เบนซ์ ปอร์เช่ ทุกรุ่น ด้วยเครื่องมือเทคโนโลยีทันสมัย มาตรฐานครบวงจร ซอยคลองลำเจียก 41 บึงกุ่ม แจ้งราคาก่อนซ่อม รับประกันงาน โทร 08-333-333-22',
   phone: '08-333-333-22',
   tel: '0833333322',
   facebook: 'https://www.facebook.com/jspeedservice',
