@@ -107,7 +107,7 @@ export const services = [
     key: 'air',
     icon: 'air',
     name: 'ซ่อมระบบแอร์',
-    pageName: 'ซ่อมแอร์และระบบไฟฟ้า',
+    pageName: 'ซ่อมระบบแอร์และไฟฟ้า',
     category: '4. ระบบแอร์และระบบไฟฟ้า',
     path: S + '%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/',
     summary:

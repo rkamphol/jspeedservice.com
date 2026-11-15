@@ -634,7 +634,7 @@ for (const s of services) {
   add({
     path: s.path,
     title: name,
-    seoTitle: `${name} รถยุโรป MINI BMW Benz Porsche`,
+    seoTitle: `อู่มินิ ${name} รถ MINI BMW Benz Porsche`,
     active: 'services',
     description: `${name} รถยุโรป MINI BMW Benz Porsche: ${s.symptoms.slice(0, 2).join(' · ')} แจ้งราคาก่อนซ่อม โทร ${site.phone}`,
     jsonLd: [{
